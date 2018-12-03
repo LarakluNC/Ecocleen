@@ -1,0 +1,89 @@
+.containerSpeech {
+	.round-tree {
+		height:230px;
+		width:230px;
+		bottom:-41px;
+		left:-93px;
+		position: absolute;
+		transform: rotateY(-180deg);
+		.blob {
+			background-color:#C8E583;
+		}
+	}
+	.tall-tree {
+		height:100px;
+		width:100px;
+		bottom:80px;
+		right:50px;
+	}
+
+}
+.containerCarPark {
+	.round-tree {
+		position:absolute;
+		height:150px;
+		width:150px;
+		bottom:-22px;
+		right:-89px;
+		.blob {
+			background-color:#C8E583;
+		}
+		.circle {
+			border:3px solid #E7D7AA;
+		}
+
+	}
+	.round-tree.tree2 {	
+		position:absolute;
+		height:150px;
+		width:150px;
+		top:57px;
+		left:30px;
+		.blob {
+			background-color:#fcd72a;
+		}
+
+	}
+	.tall-tree {
+		position:absolute;
+		height:80px;
+		width:65px;
+		.trunk {
+			margin: auto 10%;
+		}
+		.circle {
+			border:3px solid #E7D7AA;
+		}
+	}
+	.tall-tree.tree1  {
+		bottom:10px;
+		left:9px;
+	}
+	.tall-tree.tree2  {
+		position:absolute;
+		right:9px;
+		top:-18px;
+	}
+}
+
+.contactSVGS {
+	.round-tree {
+		height:300px;
+		width:300px;
+		bottom:-160px;
+		right:66px;
+		position: absolute;
+		transform: rotateY(-180deg);
+
+		.blob {
+			background-color:#C8E583;
+		}
+	}
+	.tall-tree {
+		height:100px;
+		width:100px;
+		top:131px;
+		left:86px;
+	}
+
+}
