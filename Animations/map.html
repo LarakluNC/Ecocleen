@@ -8,7 +8,21 @@
 <script src="js.js" type="text/javascript"></script>
 
 <body>
-<div class="containerMap">
+
+<script>
+
+jQuery(document).ready(function($) {
+	$('.main-map-svg path:not(.no-hover)').hover(function() {
+		region = $(this).data('region');
+		$('.pop.'+region).show();
+
+	}, function() {
+		$('.pop.'+region).hide();
+	});
+});
+
+</script>		
+<div class="containerMapLK">
 
 	<div style="display:none" class="pop aberdeen">
 		<div class="pop-ups">

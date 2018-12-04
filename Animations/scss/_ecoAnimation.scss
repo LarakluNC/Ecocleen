@@ -1,4 +1,4 @@
-.containerMap {
+.containerMapLK {
 	height:650px;
 	max-width:469px;
 	.map-container {
@@ -65,14 +65,14 @@
 
 			@keyframes clouds {
 				0% {
-					left:10px;
+					left:0px;
 				}
 				50% {
-					left:-10px;
+					left:-30px;
 
 				}
 				100% {
-					left:10px;
+					left:0px;
 		
 				}
 			}
@@ -82,14 +82,14 @@
 
 			@keyframes cloud2 {
 				0% {
-					right:20px;
+					right:40px;
 				}
 				50% {
-					right:-20px;
+					right:-10px;
 
 				}
 				100% {
-					right:20px;
+					right:40px;
 		
 				}
 			}
@@ -99,14 +99,14 @@
 
 			@keyframes cloud3 {
 				0% {
-					left:10px;
+					left:0px;
 				}
 				50% {
-					left:-10px;
+					left:-30px;
 
 				}
 				100% {
-					left:10px;
+					left:0px;
 		
 				}
 			}
@@ -197,7 +197,7 @@
 		top:544px;
 	}
 }
-.containerMainSVG {
+.containerMainSVGLK {
 	margin:100px;
 	height:525px;
 	position:relative;
@@ -230,14 +230,14 @@
 
 			@keyframes cloud2 {
 				0% {
-					right:20px;
+					right:0px;
 				}
 				50% {
-					right:-20px;
+					right:-40px;
 
 				}
 				100% {
-					right:20px;
+					right:0px;
 		
 				}
 			}
@@ -249,14 +249,14 @@
 
 			@keyframes clouds {
 				0% {
-					left:10px;
+					left:0px;
 				}
 				50% {
-					left:-10px;
+					left:-30px;
 
 				}
 				100% {
-					left:10px;
+					left:0px;
 		
 				}
 			}
@@ -267,14 +267,14 @@
 
 			@keyframes cloud3 {
 				0% {
-					left:10px;
+					left:0px;
 				}
 				50% {
-					left:-10px;
+					left:-20px;
 
 				}
 				100% {
-					left:10px;
+					left:0px;
 		
 				}
 			}
@@ -397,51 +397,53 @@
 		}
 	}
 }
-.sectors-svg {
-	position: absolute;
-	height:613px;
-	top:-44px;
-	left:-177px;
-	#Group {
-		fill: #252545;
-		transition: fill 0.5s;
-	}
-	.coloured {
-		fill: #89CEDE;
-		transition: fill 0.5s;
-	}
-	.hover:hover .coloured {
-		fill: #747474;
-	}
-	.hover:hover #Group {
-		fill: #fff;
-	}	
-	.glow {	
-		@keyframes pulse-ring {
-		  0% {
-		  	stroke-width: 2px;
-			stroke-opacity: 0.1;
-		  }
-		  50% {
-		  	stroke-width: 12px;
-			stroke-opacity: 0.7;
-		  }
-		  100% {
-		  	stroke-width: 2px;
-			stroke-opacity: 0.1;
-		  }
+.containerMainSVGLK {
+	.sectors-svg {
+		position: absolute;
+		height:613px;
+		top:-44px;
+		left:-177px;
+		#Group {
+			fill: #252545;
+			transition: fill 0.5s;
 		}
-		fill: #fff;
-		fill-rule: nonzero;
-		stroke: #d1ebf1;
-		animation: pulse-ring 3s infinite;
-		transition: fill 0.5s;
-	}
-	.tooltip {
-		opacity:1;
+		.coloured {
+			fill: #89CEDE;
+			transition: fill 0.5s;
+		}
+		.hover:hover .coloured {
+			fill: #747474;
+		}
+		.hover:hover #Group {
+			fill: #fff;
+		}	
+		.glow {	
+			@keyframes pulse-ring {
+			  0% {
+			  	stroke-width: 2px;
+				stroke-opacity: 0.1;
+			  }
+			  50% {
+			  	stroke-width: 12px;
+				stroke-opacity: 0.7;
+			  }
+			  100% {
+			  	stroke-width: 2px;
+				stroke-opacity: 0.1;
+			  }
+			}
+			fill: #fff;
+			fill-rule: nonzero;
+			stroke: #d1ebf1;
+			animation: pulse-ring 3s infinite;
+			transition: fill 0.5s;
+		}
+		.tooltip {
+			opacity:1;
+		}
 	}
 }
-.containerSpeech {
+.containerSpeechLK {
 	height:417px;
 	width:400px;
 	position:relative;
@@ -555,14 +557,14 @@
 
 			@keyframes cloud2 {
 				0% {
-					right:20px;
+					right:0px;
 				}
 				50% {
-					right:-20px;
+					right:-60px;
 
 				}
 				100% {
-					right:20px;
+					right:0px;
 		
 				}
 			}
@@ -574,14 +576,14 @@
 
 			@keyframes clouds {
 				0% {
-					left:10px;
+					left:-60px;
 				}
 				50% {
-					left:-10px;
+					left:-110px;
 
 				}
 				100% {
-					left:10px;
+					left:-60px;
 		
 				}
 			}
@@ -592,21 +594,21 @@
 
 			@keyframes cloud3 {
 				0% {
-					left:10px;
+					left:0px;
 				}
 				50% {
-					left:-10px;
+					left:-20px;
 
 				}
 				100% {
-					left:10px;
+					left:0px;
 		
 				}
 			}
 	}	
 
 }
-.containerCarPark {
+.containerCarParkLK {
 	height:381px;
 	width:350px;
 	position:relative;
@@ -816,7 +818,7 @@
 
 	}
 }
-.infoPhone {
+.infoPhoneLK {
 	position:absolute;
 	right:10%;
 
@@ -913,7 +915,7 @@
 				transform:rotate(45deg);
 				position:absolute;
 				left:91%;
-				top:-12%;
+				top:-8%;
 				animation: tick2 3s;
 			}
 			@keyframes tick1 {
@@ -947,7 +949,7 @@
 	}
 
 }
-.contactSVGS {
+.contactSVGSLK {
 	height:450px;
 	width:400px;
 	position:absolute;
@@ -963,24 +965,40 @@
 		height:175px;
 		left:143px;
 		bottom:153px;
-		animation: phone-height 3s;
+		animation: phone-height 6s;
+		transform-origin: bottom;
 	}
 	@keyframes phone-height {
 		0% {
 			transform:scaleY(0);
 			bottom:6px;
 		}
-		49% {
+		24% {
+			transform:scaleY(0.6);
+			bottom:6px;
+		}
+		25% {
 			transform:scaleY(0.6);
 			bottom:6px;
 		}
 		50% {
-			transform:scaleY(0.6);
-			bottom:6px;
-		}
-		100% {
 			bottom:153px;
 			transform:scaleY(1);
+		}
+		60%{
+			transform:rotate(-3deg);
+		}
+		70% {
+			transform:rotate(3deg);
+		}	
+		80% {
+			transform:rotate(-3deg);
+		}
+		90% {
+			transform:rotate(3deg);
+		}
+		100% {
+			transform:rotate(0deg);
 		}
 	}
 	.overflow-grass {
@@ -1027,4 +1045,5 @@
 		top:200px;
 		animation: cloud2  6s infinite;
 	}
+
 }

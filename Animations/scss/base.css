@@ -1,88 +1,88 @@
-.containerMap {
+.containerMapLK {
   height: 650px;
   max-width: 469px; }
-  .containerMap .map-container {
+  .containerMapLK .map-container {
     height: 100%;
     position: relative; }
-    .containerMap .map-container .main-map-svg {
+    .containerMapLK .map-container .main-map-svg {
       max-height: 100%; }
-      .containerMap .map-container .main-map-svg .st0 {
+      .containerMapLK .map-container .main-map-svg .st0 {
         fill: #71BE49;
         stroke: #FFFFFF;
         stroke-miterlimit: 10; }
-      .containerMap .map-container .main-map-svg .st0:hover {
+      .containerMapLK .map-container .main-map-svg .st0:hover {
         fill: #FCD72A;
         position: relative; }
-      .containerMap .map-container .main-map-svg .no-hover:hover {
+      .containerMapLK .map-container .main-map-svg .no-hover:hover {
         fill: #71BE49; }
-      .containerMap .map-container .main-map-svg .st1 {
+      .containerMapLK .map-container .main-map-svg .st1 {
         fill: #FFFFFF; }
-    .containerMap .map-container .trees {
+    .containerMapLK .map-container .trees {
       max-height: 650px;
       position: absolute;
       z-index: 0;
       top: 0;
       pointer-events: none; }
-      .containerMap .map-container .trees .st0 {
+      .containerMapLK .map-container .trees .st0 {
         fill: url(#SVGID_1_); }
-      .containerMap .map-container .trees .st1 {
+      .containerMapLK .map-container .trees .st1 {
         fill: url(#SVGID_2_); }
-      .containerMap .map-container .trees .st2 {
+      .containerMapLK .map-container .trees .st2 {
         fill: url(#SVGID_3_); }
-      .containerMap .map-container .trees .st3 {
+      .containerMapLK .map-container .trees .st3 {
         fill: url(#SVGID_4_); }
-      .containerMap .map-container .trees .st4 {
+      .containerMapLK .map-container .trees .st4 {
         fill: url(#SVGID_5_); }
-      .containerMap .map-container .trees .st5 {
+      .containerMapLK .map-container .trees .st5 {
         fill: url(#SVGID_6_); }
-      .containerMap .map-container .trees .st6 {
+      .containerMapLK .map-container .trees .st6 {
         fill: none; }
-      .containerMap .map-container .trees .st7 {
+      .containerMapLK .map-container .trees .st7 {
         fill: #F2F2F2; }
-      .containerMap .map-container .trees .st8 {
+      .containerMapLK .map-container .trees .st8 {
         fill: #6A9B4B; }
-      .containerMap .map-container .trees .st9 {
+      .containerMapLK .map-container .trees .st9 {
         fill: none;
         stroke: #E5D7AD;
         stroke-width: 0.5172;
         stroke-miterlimit: 10; }
-      .containerMap .map-container .trees .st10 {
+      .containerMapLK .map-container .trees .st10 {
         fill: none;
         stroke: #F2F2F2;
         stroke-width: 1.5515;
         stroke-miterlimit: 10; }
-      .containerMap .map-container .trees .st11 {
+      .containerMapLK .map-container .trees .st11 {
         fill: #E5D7AD; }
-      .containerMap .map-container .trees .st12 {
+      .containerMapLK .map-container .trees .st12 {
         fill: none;
         stroke: #E5D7AD;
         stroke-width: 0.5793;
         stroke-miterlimit: 10; }
-      .containerMap .map-container .trees .st13 {
+      .containerMapLK .map-container .trees .st13 {
         fill: none;
         stroke: #E5D7AD;
         stroke-width: 1.7378;
         stroke-miterlimit: 10; }
-      .containerMap .map-container .trees .st14 {
+      .containerMapLK .map-container .trees .st14 {
         fill: #C8E583; }
-    .containerMap .map-container .birds {
+    .containerMapLK .map-container .birds {
       max-height: 650px;
       position: absolute;
       top: 0;
       pointer-events: none; }
-      .containerMap .map-container .birds .st0 {
+      .containerMapLK .map-container .birds .st0 {
         fill: none;
         stroke: #78CDDB;
         stroke-width: 1.9368;
         stroke-linejoin: round;
         stroke-miterlimit: 10; }
-      .containerMap .map-container .birds .st1 {
+      .containerMapLK .map-container .birds .st1 {
         fill: none;
         stroke: #B3B3B3;
         stroke-width: 1.9368;
         stroke-linejoin: round;
         stroke-miterlimit: 10; }
-    .containerMap .map-container .clouds {
+    .containerMapLK .map-container .clouds {
       max-height: 650px;
       position: absolute;
       top: 0;
@@ -91,58 +91,58 @@
       position: absolute;
       -webkit-animation: clouds  6s infinite;
               animation: clouds  6s infinite; }
-      .containerMap .map-container .clouds .st0 {
+      .containerMapLK .map-container .clouds .st0 {
         opacity: 0.69;
         fill: #88CEDE; }
 @-webkit-keyframes clouds {
   0% {
-    left: 10px; }
+    left: 0px; }
   50% {
-    left: -10px; }
+    left: -30px; }
   100% {
-    left: 10px; } }
+    left: 0px; } }
 @keyframes clouds {
   0% {
-    left: 10px; }
+    left: 0px; }
   50% {
-    left: -10px; }
+    left: -30px; }
   100% {
-    left: 10px; } }
-    .containerMap .map-container .cloud2 {
+    left: 0px; } }
+    .containerMapLK .map-container .cloud2 {
       -webkit-animation: cloud2  8s infinite;
               animation: cloud2  8s infinite; }
 @-webkit-keyframes cloud2 {
   0% {
-    right: 20px; }
+    right: 40px; }
   50% {
-    right: -20px; }
+    right: -10px; }
   100% {
-    right: 20px; } }
+    right: 40px; } }
 @keyframes cloud2 {
   0% {
-    right: 20px; }
+    right: 40px; }
   50% {
-    right: -20px; }
+    right: -10px; }
   100% {
-    right: 20px; } }
-    .containerMap .map-container .cloud3 {
+    right: 40px; } }
+    .containerMapLK .map-container .cloud3 {
       -webkit-animation: cloud3  3s infinite;
               animation: cloud3  3s infinite; }
 @-webkit-keyframes cloud3 {
   0% {
-    left: 10px; }
+    left: 0px; }
   50% {
-    left: -10px; }
+    left: -30px; }
   100% {
-    left: 10px; } }
+    left: 0px; } }
 @keyframes cloud3 {
   0% {
-    left: 10px; }
+    left: 0px; }
   50% {
-    left: -10px; }
+    left: -30px; }
   100% {
-    left: 10px; } }
-  .containerMap .pop-ups {
+    left: 0px; } }
+  .containerMapLK .pop-ups {
     position: relative;
     font-family: PTSansRegular,Arial,Helvetica,sans-serif;
     font-weight: 400;
@@ -156,7 +156,7 @@
     -webkit-box-shadow: 0px -3px 26px -4px rgba(0, 0, 0, 0.23);
             box-shadow: 0px -3px 26px -4px rgba(0, 0, 0, 0.23);
     pointer-events: none; }
-    .containerMap .pop-ups .arrow {
+    .containerMapLK .pop-ups .arrow {
       width: 30px;
       height: 30px;
       background-color: #fff;
@@ -169,329 +169,329 @@
       z-index: 100;
       -webkit-box-shadow: 0px 9px 26px -8px rgba(0, 0, 0, 0.23);
               box-shadow: 0px 9px 26px -8px rgba(0, 0, 0, 0.23); }
-    .containerMap .pop-ups .text {
+    .containerMapLK .pop-ups .text {
       z-index: 200;
       position: relative; }
-  .containerMap .pop {
+  .containerMapLK .pop {
     position: absolute; }
-  .containerMap .aberdeen {
+  .containerMapLK .aberdeen {
     left: 270px;
     top: 70px; }
-  .containerMap .tees-valley {
+  .containerMapLK .tees-valley {
     left: 280px;
     top: 240px; }
-  .containerMap .midlands {
+  .containerMapLK .midlands {
     left: 229px;
     top: 409px; }
-  .containerMap .wiltshire {
+  .containerMapLK .wiltshire {
     left: 198px;
     top: 486px; }
-  .containerMap .south-wales {
+  .containerMapLK .south-wales {
     left: 93px;
     top: 449px; }
-  .containerMap .thames-valley {
+  .containerMapLK .thames-valley {
     left: 229px;
     top: 509px; }
-  .containerMap .dorset {
+  .containerMapLK .dorset {
     left: 209px;
     top: 554px; }
-  .containerMap .kent {
+  .containerMapLK .kent {
     left: 349px;
     top: 543px; }
-  .containerMap .london {
+  .containerMapLK .london {
     left: 306px;
     top: 487px; }
-  .containerMap .essex {
+  .containerMapLK .essex {
     left: 344px;
     top: 487px; }
-  .containerMap .east-anglia {
+  .containerMapLK .east-anglia {
     left: 359px;
     top: 431px; }
-  .containerMap .south-west {
+  .containerMapLK .south-west {
     left: 57px;
     top: 544px; }
 
-.containerMainSVG {
+.containerMainSVGLK {
   margin: 100px;
   height: 525px;
   position: relative;
   width: 455px; }
-  .containerMainSVG .main-svg {
+  .containerMainSVGLK .main-svg {
     height: 100%; }
-    .containerMainSVG .main-svg .cls-1, .containerMainSVG .main-svg .cls-11, .containerMainSVG .main-svg .cls-13, .containerMainSVG .main-svg .cls-18, .containerMainSVG .main-svg .cls-2, .containerMainSVG .main-svg .cls-20, .containerMainSVG .main-svg .cls-23, .containerMainSVG .main-svg .cls-24, .containerMainSVG .main-svg .cls-29, .containerMainSVG .main-svg .cls-30, .containerMainSVG .main-svg .cls-32, .containerMainSVG .main-svg .cls-37, .containerMainSVG .main-svg .cls-38, .containerMainSVG .main-svg .cls-40, .containerMainSVG .main-svg .cls-42, .containerMainSVG .main-svg .cls-44, .containerMainSVG .main-svg .cls-52, .containerMainSVG .main-svg .cls-58, .containerMainSVG .main-svg .cls-59, .containerMainSVG .main-svg .cls-60, .containerMainSVG .main-svg .cls-64, .containerMainSVG .main-svg .cls-65, .containerMainSVG .main-svg .cls-68, .containerMainSVG .main-svg .cls-74, .containerMainSVG .main-svg .cls-75 {
+    .containerMainSVGLK .main-svg .cls-1, .containerMainSVGLK .main-svg .cls-11, .containerMainSVGLK .main-svg .cls-13, .containerMainSVGLK .main-svg .cls-18, .containerMainSVGLK .main-svg .cls-2, .containerMainSVGLK .main-svg .cls-20, .containerMainSVGLK .main-svg .cls-23, .containerMainSVGLK .main-svg .cls-24, .containerMainSVGLK .main-svg .cls-29, .containerMainSVGLK .main-svg .cls-30, .containerMainSVGLK .main-svg .cls-32, .containerMainSVGLK .main-svg .cls-37, .containerMainSVGLK .main-svg .cls-38, .containerMainSVGLK .main-svg .cls-40, .containerMainSVGLK .main-svg .cls-42, .containerMainSVGLK .main-svg .cls-44, .containerMainSVGLK .main-svg .cls-52, .containerMainSVGLK .main-svg .cls-58, .containerMainSVGLK .main-svg .cls-59, .containerMainSVGLK .main-svg .cls-60, .containerMainSVGLK .main-svg .cls-64, .containerMainSVGLK .main-svg .cls-65, .containerMainSVGLK .main-svg .cls-68, .containerMainSVGLK .main-svg .cls-74, .containerMainSVGLK .main-svg .cls-75 {
       fill: none; }
-    .containerMainSVG .main-svg .cls-2 {
+    .containerMainSVGLK .main-svg .cls-2 {
       clip-rule: evenodd; }
-    .containerMainSVG .main-svg .cls-3 {
+    .containerMainSVGLK .main-svg .cls-3 {
       fill: #f2f2f2; }
-    .containerMainSVG .main-svg .cls-4 {
+    .containerMainSVGLK .main-svg .cls-4 {
       fill: #e6e6e6; }
-    .containerMainSVG .main-svg .cls-5 {
+    .containerMainSVGLK .main-svg .cls-5 {
       fill: #78cddb; }
-    .containerMainSVG .main-svg .cls-33, .containerMainSVG .main-svg .cls-35, .containerMainSVG .main-svg .cls-6 {
+    .containerMainSVGLK .main-svg .cls-33, .containerMainSVGLK .main-svg .cls-35, .containerMainSVGLK .main-svg .cls-6 {
       fill: #252545; }
-    .containerMainSVG .main-svg .cls-7 {
+    .containerMainSVGLK .main-svg .cls-7 {
       fill: gray; }
-    .containerMainSVG .main-svg .cls-8 {
+    .containerMainSVGLK .main-svg .cls-8 {
       fill: #ccc; }
-    .containerMainSVG .main-svg .cls-9 {
+    .containerMainSVGLK .main-svg .cls-9 {
       -webkit-clip-path: url(#clip-path);
               clip-path: url(#clip-path); }
-    .containerMainSVG .main-svg .cls-10 {
+    .containerMainSVGLK .main-svg .cls-10 {
       opacity: 0.55; }
-    .containerMainSVG .main-svg .cls-11, .containerMainSVG .main-svg .cls-13, .containerMainSVG .main-svg .cls-20, .containerMainSVG .main-svg .cls-23, .containerMainSVG .main-svg .cls-24, .containerMainSVG .main-svg .cls-29, .containerMainSVG .main-svg .cls-40, .containerMainSVG .main-svg .cls-42, .containerMainSVG .main-svg .cls-44 {
+    .containerMainSVGLK .main-svg .cls-11, .containerMainSVGLK .main-svg .cls-13, .containerMainSVGLK .main-svg .cls-20, .containerMainSVGLK .main-svg .cls-23, .containerMainSVGLK .main-svg .cls-24, .containerMainSVGLK .main-svg .cls-29, .containerMainSVGLK .main-svg .cls-40, .containerMainSVGLK .main-svg .cls-42, .containerMainSVGLK .main-svg .cls-44 {
       stroke: #fff; }
-    .containerMainSVG .main-svg .cls-11, .containerMainSVG .main-svg .cls-13, .containerMainSVG .main-svg .cls-20, .containerMainSVG .main-svg .cls-24, .containerMainSVG .main-svg .cls-30, .containerMainSVG .main-svg .cls-33, .containerMainSVG .main-svg .cls-42, .containerMainSVG .main-svg .cls-64, .containerMainSVG .main-svg .cls-65 {
+    .containerMainSVGLK .main-svg .cls-11, .containerMainSVGLK .main-svg .cls-13, .containerMainSVGLK .main-svg .cls-20, .containerMainSVGLK .main-svg .cls-24, .containerMainSVGLK .main-svg .cls-30, .containerMainSVGLK .main-svg .cls-33, .containerMainSVGLK .main-svg .cls-42, .containerMainSVGLK .main-svg .cls-64, .containerMainSVGLK .main-svg .cls-65 {
       stroke-linecap: round; }
-    .containerMainSVG .main-svg .cls-11, .containerMainSVG .main-svg .cls-13, .containerMainSVG .main-svg .cls-18, .containerMainSVG .main-svg .cls-20, .containerMainSVG .main-svg .cls-23, .containerMainSVG .main-svg .cls-24, .containerMainSVG .main-svg .cls-29, .containerMainSVG .main-svg .cls-30, .containerMainSVG .main-svg .cls-32, .containerMainSVG .main-svg .cls-37, .containerMainSVG .main-svg .cls-38, .containerMainSVG .main-svg .cls-40, .containerMainSVG .main-svg .cls-42, .containerMainSVG .main-svg .cls-44, .containerMainSVG .main-svg .cls-52, .containerMainSVG .main-svg .cls-59, .containerMainSVG .main-svg .cls-60, .containerMainSVG .main-svg .cls-64, .containerMainSVG .main-svg .cls-65, .containerMainSVG .main-svg .cls-68, .containerMainSVG .main-svg .cls-74 {
+    .containerMainSVGLK .main-svg .cls-11, .containerMainSVGLK .main-svg .cls-13, .containerMainSVGLK .main-svg .cls-18, .containerMainSVGLK .main-svg .cls-20, .containerMainSVGLK .main-svg .cls-23, .containerMainSVGLK .main-svg .cls-24, .containerMainSVGLK .main-svg .cls-29, .containerMainSVGLK .main-svg .cls-30, .containerMainSVGLK .main-svg .cls-32, .containerMainSVGLK .main-svg .cls-37, .containerMainSVGLK .main-svg .cls-38, .containerMainSVGLK .main-svg .cls-40, .containerMainSVGLK .main-svg .cls-42, .containerMainSVGLK .main-svg .cls-44, .containerMainSVGLK .main-svg .cls-52, .containerMainSVGLK .main-svg .cls-59, .containerMainSVGLK .main-svg .cls-60, .containerMainSVGLK .main-svg .cls-64, .containerMainSVGLK .main-svg .cls-65, .containerMainSVGLK .main-svg .cls-68, .containerMainSVGLK .main-svg .cls-74 {
       stroke-miterlimit: 10; }
-    .containerMainSVG .main-svg .cls-11, .containerMainSVG .main-svg .cls-42 {
+    .containerMainSVGLK .main-svg .cls-11, .containerMainSVGLK .main-svg .cls-42 {
       stroke-width: 14px; }
-    .containerMainSVG .main-svg .cls-12 {
+    .containerMainSVGLK .main-svg .cls-12 {
       -webkit-clip-path: url(#clip-path-2);
               clip-path: url(#clip-path-2); }
-    .containerMainSVG .main-svg .cls-13, .containerMainSVG .main-svg .cls-20, .containerMainSVG .main-svg .cls-40 {
+    .containerMainSVGLK .main-svg .cls-13, .containerMainSVGLK .main-svg .cls-20, .containerMainSVGLK .main-svg .cls-40 {
       stroke-width: 2px; }
-    .containerMainSVG .main-svg .cls-13 {
+    .containerMainSVGLK .main-svg .cls-13 {
       opacity: 0.56; }
-    .containerMainSVG .main-svg .cls-14 {
+    .containerMainSVGLK .main-svg .cls-14 {
       fill: #f24949; }
-    .containerMainSVG .main-svg .cls-15 {
+    .containerMainSVGLK .main-svg .cls-15 {
       fill: #fff; }
-    .containerMainSVG .main-svg .cls-16 {
+    .containerMainSVGLK .main-svg .cls-16 {
       -webkit-clip-path: url(#clip-path-3);
               clip-path: url(#clip-path-3); }
-    .containerMainSVG .main-svg .cls-17 {
+    .containerMainSVGLK .main-svg .cls-17 {
       fill: #1a1a1a; }
-    .containerMainSVG .main-svg .cls-17, .containerMainSVG .main-svg .cls-35 {
+    .containerMainSVGLK .main-svg .cls-17, .containerMainSVGLK .main-svg .cls-35 {
       opacity: 0.41; }
-    .containerMainSVG .main-svg .cls-17, .containerMainSVG .main-svg .cls-26, .containerMainSVG .main-svg .cls-27, .containerMainSVG .main-svg .cls-35 {
+    .containerMainSVGLK .main-svg .cls-17, .containerMainSVGLK .main-svg .cls-26, .containerMainSVGLK .main-svg .cls-27, .containerMainSVGLK .main-svg .cls-35 {
       mix-blend-mode: darken; }
-    .containerMainSVG .main-svg .cls-18 {
+    .containerMainSVGLK .main-svg .cls-18 {
       stroke: #ccc;
       stroke-width: 0.5px; }
-    .containerMainSVG .main-svg .cls-19 {
+    .containerMainSVGLK .main-svg .cls-19 {
       -webkit-clip-path: url(#clip-path-4);
               clip-path: url(#clip-path-4); }
-    .containerMainSVG .main-svg .cls-21 {
+    .containerMainSVGLK .main-svg .cls-21 {
       -webkit-clip-path: url(#clip-path-5);
               clip-path: url(#clip-path-5); }
-    .containerMainSVG .main-svg .cls-22 {
+    .containerMainSVGLK .main-svg .cls-22 {
       -webkit-clip-path: url(#clip-path-6);
               clip-path: url(#clip-path-6); }
-    .containerMainSVG .main-svg .cls-23, .containerMainSVG .main-svg .cls-24, .containerMainSVG .main-svg .cls-29, .containerMainSVG .main-svg .cls-30, .containerMainSVG .main-svg .cls-33 {
+    .containerMainSVGLK .main-svg .cls-23, .containerMainSVGLK .main-svg .cls-24, .containerMainSVGLK .main-svg .cls-29, .containerMainSVGLK .main-svg .cls-30, .containerMainSVGLK .main-svg .cls-33 {
       stroke-width: 3px; }
-    .containerMainSVG .main-svg .cls-25 {
+    .containerMainSVGLK .main-svg .cls-25 {
       -webkit-clip-path: url(#clip-path-7);
               clip-path: url(#clip-path-7); }
-    .containerMainSVG .main-svg .cls-26, .containerMainSVG .main-svg .cls-27 {
+    .containerMainSVGLK .main-svg .cls-26, .containerMainSVGLK .main-svg .cls-27 {
       opacity: 0.19; }
-    .containerMainSVG .main-svg .cls-26 {
+    .containerMainSVGLK .main-svg .cls-26 {
       fill: url(#linear-gradient); }
-    .containerMainSVG .main-svg .cls-27 {
+    .containerMainSVGLK .main-svg .cls-27 {
       fill: url(#linear-gradient-2); }
-    .containerMainSVG .main-svg .cls-28 {
+    .containerMainSVGLK .main-svg .cls-28 {
       -webkit-clip-path: url(#clip-path-9);
               clip-path: url(#clip-path-9); }
-    .containerMainSVG .main-svg .cls-29, .containerMainSVG .main-svg .cls-42 {
+    .containerMainSVGLK .main-svg .cls-29, .containerMainSVGLK .main-svg .cls-42 {
       opacity: 0.6; }
-    .containerMainSVG .main-svg .cls-30, .containerMainSVG .main-svg .cls-32, .containerMainSVG .main-svg .cls-33, .containerMainSVG .main-svg .cls-38, .containerMainSVG .main-svg .cls-74 {
+    .containerMainSVGLK .main-svg .cls-30, .containerMainSVGLK .main-svg .cls-32, .containerMainSVGLK .main-svg .cls-33, .containerMainSVGLK .main-svg .cls-38, .containerMainSVGLK .main-svg .cls-74 {
       stroke: #252545; }
-    .containerMainSVG .main-svg .cls-31 {
+    .containerMainSVGLK .main-svg .cls-31 {
       -webkit-clip-path: url(#clip-path-10);
               clip-path: url(#clip-path-10); }
-    .containerMainSVG .main-svg .cls-32 {
+    .containerMainSVGLK .main-svg .cls-32 {
       stroke-width: 0.93px; }
-    .containerMainSVG .main-svg .cls-33, .containerMainSVG .main-svg .cls-58, .containerMainSVG .main-svg .cls-75 {
+    .containerMainSVGLK .main-svg .cls-33, .containerMainSVGLK .main-svg .cls-58, .containerMainSVGLK .main-svg .cls-75 {
       stroke-linejoin: round; }
-    .containerMainSVG .main-svg .cls-34 {
+    .containerMainSVGLK .main-svg .cls-34 {
       -webkit-clip-path: url(#clip-path-11);
               clip-path: url(#clip-path-11); }
-    .containerMainSVG .main-svg .cls-36 {
+    .containerMainSVGLK .main-svg .cls-36 {
       fill: #fcd72a; }
-    .containerMainSVG .main-svg .cls-37 {
+    .containerMainSVGLK .main-svg .cls-37 {
       stroke: #fcd72a; }
-    .containerMainSVG .main-svg .cls-38 {
+    .containerMainSVGLK .main-svg .cls-38 {
       stroke-width: 1.62px; }
-    .containerMainSVG .main-svg .cls-39 {
+    .containerMainSVGLK .main-svg .cls-39 {
       -webkit-clip-path: url(#clip-path-13);
               clip-path: url(#clip-path-13); }
-    .containerMainSVG .main-svg .cls-41 {
+    .containerMainSVGLK .main-svg .cls-41 {
       -webkit-clip-path: url(#clip-path-14);
               clip-path: url(#clip-path-14); }
-    .containerMainSVG .main-svg .cls-43 {
+    .containerMainSVGLK .main-svg .cls-43 {
       -webkit-clip-path: url(#clip-path-15);
               clip-path: url(#clip-path-15); }
-    .containerMainSVG .main-svg .cls-44 {
+    .containerMainSVGLK .main-svg .cls-44 {
       stroke-width: 0.97px; }
-    .containerMainSVG .main-svg .cls-45 {
+    .containerMainSVGLK .main-svg .cls-45 {
       -webkit-clip-path: url(#clip-path-16);
               clip-path: url(#clip-path-16); }
-    .containerMainSVG .main-svg .cls-46 {
+    .containerMainSVGLK .main-svg .cls-46 {
       -webkit-clip-path: url(#clip-path-19);
               clip-path: url(#clip-path-19); }
-    .containerMainSVG .main-svg .cls-47 {
+    .containerMainSVGLK .main-svg .cls-47 {
       -webkit-clip-path: url(#clip-path-20);
               clip-path: url(#clip-path-20); }
-    .containerMainSVG .main-svg .cls-48 {
+    .containerMainSVGLK .main-svg .cls-48 {
       -webkit-clip-path: url(#clip-path-21);
               clip-path: url(#clip-path-21); }
-    .containerMainSVG .main-svg .cls-49 {
+    .containerMainSVGLK .main-svg .cls-49 {
       -webkit-clip-path: url(#clip-path-22);
               clip-path: url(#clip-path-22); }
-    .containerMainSVG .main-svg .cls-50 {
+    .containerMainSVGLK .main-svg .cls-50 {
       -webkit-clip-path: url(#clip-path-23);
               clip-path: url(#clip-path-23); }
-    .containerMainSVG .main-svg .cls-51 {
+    .containerMainSVGLK .main-svg .cls-51 {
       fill: #e5d7ad; }
-    .containerMainSVG .main-svg .cls-52, .containerMainSVG .main-svg .cls-60, .containerMainSVG .main-svg .cls-68 {
+    .containerMainSVGLK .main-svg .cls-52, .containerMainSVGLK .main-svg .cls-60, .containerMainSVGLK .main-svg .cls-68 {
       stroke: #e5d7ad; }
-    .containerMainSVG .main-svg .cls-52 {
+    .containerMainSVGLK .main-svg .cls-52 {
       stroke-width: 0.58px; }
-    .containerMainSVG .main-svg .cls-53 {
+    .containerMainSVGLK .main-svg .cls-53 {
       isolation: isolate; }
-    .containerMainSVG .main-svg .cls-54 {
+    .containerMainSVGLK .main-svg .cls-54 {
       fill: #6a9b4b; }
-    .containerMainSVG .main-svg .cls-55 {
+    .containerMainSVGLK .main-svg .cls-55 {
       fill: #71be49; }
-    .containerMainSVG .main-svg .cls-56 {
+    .containerMainSVGLK .main-svg .cls-56 {
       fill: url(#linear-gradient-3); }
-    .containerMainSVG .main-svg .cls-57 {
+    .containerMainSVGLK .main-svg .cls-57 {
       fill: url(#linear-gradient-4); }
-    .containerMainSVG .main-svg .cls-58, .containerMainSVG .main-svg .cls-65 {
+    .containerMainSVGLK .main-svg .cls-58, .containerMainSVGLK .main-svg .cls-65 {
       stroke: #b3b3b3; }
-    .containerMainSVG .main-svg .cls-58 {
+    .containerMainSVGLK .main-svg .cls-58 {
       stroke-width: 1.94px; }
-    .containerMainSVG .main-svg .cls-59, .containerMainSVG .main-svg .cls-64 {
+    .containerMainSVGLK .main-svg .cls-59, .containerMainSVGLK .main-svg .cls-64 {
       stroke: #f2f2f2; }
-    .containerMainSVG .main-svg .cls-59, .containerMainSVG .main-svg .cls-60 {
+    .containerMainSVGLK .main-svg .cls-59, .containerMainSVGLK .main-svg .cls-60 {
       stroke-width: 1.55px; }
-    .containerMainSVG .main-svg .cls-61 {
+    .containerMainSVGLK .main-svg .cls-61 {
       -webkit-clip-path: url(#clip-path-24);
               clip-path: url(#clip-path-24); }
-    .containerMainSVG .main-svg .cls-62 {
+    .containerMainSVGLK .main-svg .cls-62 {
       -webkit-clip-path: url(#clip-path-25);
               clip-path: url(#clip-path-25); }
-    .containerMainSVG .main-svg .cls-63 {
+    .containerMainSVGLK .main-svg .cls-63 {
       fill: url(#linear-gradient-5); }
-    .containerMainSVG .main-svg .cls-64 {
+    .containerMainSVGLK .main-svg .cls-64 {
       stroke-width: 20.37px; }
-    .containerMainSVG .main-svg .cls-65 {
+    .containerMainSVGLK .main-svg .cls-65 {
       stroke-dasharray: 10; }
-    .containerMainSVG .main-svg .cls-66 {
+    .containerMainSVGLK .main-svg .cls-66 {
       fill: url(#linear-gradient-6); }
-    .containerMainSVG .main-svg .cls-67 {
+    .containerMainSVGLK .main-svg .cls-67 {
       fill: url(#linear-gradient-7); }
-    .containerMainSVG .main-svg .cls-68 {
+    .containerMainSVGLK .main-svg .cls-68 {
       stroke-width: 1.74px; }
-    .containerMainSVG .main-svg .cls-69 {
+    .containerMainSVGLK .main-svg .cls-69 {
       fill: url(#linear-gradient-8); }
-    .containerMainSVG .main-svg .cls-70 {
+    .containerMainSVGLK .main-svg .cls-70 {
       fill: url(#linear-gradient-9); }
-    .containerMainSVG .main-svg .cls-71 {
+    .containerMainSVGLK .main-svg .cls-71 {
       fill: url(#linear-gradient-10); }
-    .containerMainSVG .main-svg .cls-72 {
+    .containerMainSVGLK .main-svg .cls-72 {
       fill: #c8e583; }
-    .containerMainSVG .main-svg .cls-73 {
+    .containerMainSVGLK .main-svg .cls-73 {
       fill: url(#linear-gradient-11); }
-    .containerMainSVG .main-svg .cls-74, .containerMainSVG .main-svg .cls-75 {
+    .containerMainSVGLK .main-svg .cls-74, .containerMainSVGLK .main-svg .cls-75 {
       stroke-width: 1.85px; }
-    .containerMainSVG .main-svg .cls-75 {
+    .containerMainSVGLK .main-svg .cls-75 {
       stroke: #f24949; }
-    .containerMainSVG .main-svg .cls-76 {
+    .containerMainSVGLK .main-svg .cls-76 {
       fill: url(#linear-gradient-12); }
-    .containerMainSVG .main-svg .cls-77 {
+    .containerMainSVGLK .main-svg .cls-77 {
       fill: url(#linear-gradient-13); }
-    .containerMainSVG .main-svg .cls-78 {
+    .containerMainSVGLK .main-svg .cls-78 {
       fill: url(#linear-gradient-14); }
-    .containerMainSVG .main-svg .cls-79 {
+    .containerMainSVGLK .main-svg .cls-79 {
       fill: url(#linear-gradient-15); }
-    .containerMainSVG .main-svg .cls-80 {
+    .containerMainSVGLK .main-svg .cls-80 {
       fill: url(#linear-gradient-16); }
-    .containerMainSVG .main-svg .cls-81 {
+    .containerMainSVGLK .main-svg .cls-81 {
       -webkit-clip-path: url(#clip-path-26);
               clip-path: url(#clip-path-26); }
-    .containerMainSVG .main-svg .cls-82 {
+    .containerMainSVGLK .main-svg .cls-82 {
       -webkit-clip-path: url(#clip-path-27);
               clip-path: url(#clip-path-27); }
-    .containerMainSVG .main-svg .cls-83 {
+    .containerMainSVGLK .main-svg .cls-83 {
       -webkit-clip-path: url(#clip-path-28);
               clip-path: url(#clip-path-28); }
-    .containerMainSVG .main-svg .cls-84 {
+    .containerMainSVGLK .main-svg .cls-84 {
       fill: url(#linear-gradient-17); }
-  .containerMainSVG .trees {
+  .containerMainSVGLK .trees {
     position: absolute;
     height: 403px;
     left: 39px;
     top: 113px; }
-    .containerMainSVG .trees .cls-1 {
+    .containerMainSVGLK .trees .cls-1 {
       fill: #c8e583; }
-    .containerMainSVG .trees .cls-2 {
+    .containerMainSVGLK .trees .cls-2 {
       fill: #e5d7ad; }
-    .containerMainSVG .trees .cls-3, .containerMainSVG .trees .cls-4, .containerMainSVG .trees .cls-6 {
+    .containerMainSVGLK .trees .cls-3, .containerMainSVGLK .trees .cls-4, .containerMainSVGLK .trees .cls-6 {
       fill: none;
       stroke-miterlimit: 10; }
-    .containerMainSVG .trees .cls-3, .containerMainSVG .trees .cls-4 {
+    .containerMainSVGLK .trees .cls-3, .containerMainSVGLK .trees .cls-4 {
       stroke: #e5d7ad; }
-    .containerMainSVG .trees .cls-3, .containerMainSVG .trees .cls-6 {
+    .containerMainSVGLK .trees .cls-3, .containerMainSVGLK .trees .cls-6 {
       stroke-width: 1.55px; }
-    .containerMainSVG .trees .cls-4 {
+    .containerMainSVGLK .trees .cls-4 {
       stroke-width: 1.74px; }
-    .containerMainSVG .trees .cls-5 {
+    .containerMainSVGLK .trees .cls-5 {
       fill: #f2f2f2; }
-    .containerMainSVG .trees .cls-6 {
+    .containerMainSVGLK .trees .cls-6 {
       stroke: #f2f2f2; }
-    .containerMainSVG .trees .cls-7 {
+    .containerMainSVGLK .trees .cls-7 {
       fill: #6a9b4b; }
-    .containerMainSVG .trees .cls-8 {
+    .containerMainSVGLK .trees .cls-8 {
       fill: #fcd72a; }
-  .containerMainSVG .large-cloud {
+  .containerMainSVGLK .large-cloud {
     width: 30%;
     position: absolute;
     -webkit-animation: cloud2  4s infinite;
             animation: cloud2  4s infinite;
     top: 20px; }
-    .containerMainSVG .large-cloud .cls-1 {
+    .containerMainSVGLK .large-cloud .cls-1 {
       fill: #88cede;
       opacity: 0.69; }
-  .containerMainSVG .small-cloud {
+  .containerMainSVGLK .small-cloud {
     width: 20%;
     top: 400px;
     position: absolute;
     -webkit-animation: cloud2  8s infinite;
             animation: cloud2  8s infinite; }
-    .containerMainSVG .small-cloud .cls-1 {
+    .containerMainSVGLK .small-cloud .cls-1 {
       fill: #f2f2f2; }
 @keyframes cloud2 {
   0% {
-    right: 20px; }
+    right: 0px; }
   50% {
-    right: -20px; }
+    right: -40px; }
   100% {
-    right: 20px; } }
-  .containerMainSVG .large-cloud-2 {
+    right: 0px; } }
+  .containerMainSVGLK .large-cloud-2 {
     -webkit-animation: clouds  6s infinite;
             animation: clouds  6s infinite;
     top: 300px; }
 @keyframes clouds {
   0% {
-    left: 10px; }
+    left: 0px; }
   50% {
-    left: -10px; }
+    left: -30px; }
   100% {
-    left: 10px; } }
-  .containerMainSVG .small-cloud-2 {
+    left: 0px; } }
+  .containerMainSVGLK .small-cloud-2 {
     -webkit-animation: cloud3  4s infinite;
             animation: cloud3  4s infinite;
     top: 50px; }
 @keyframes cloud3 {
   0% {
-    left: 10px; }
+    left: 0px; }
   50% {
-    left: -10px; }
+    left: -20px; }
   100% {
-    left: 10px; } }
-  .containerMainSVG .turbine {
+    left: 0px; } }
+  .containerMainSVGLK .turbine {
     position: absolute;
     height: 30px;
     right: 14px;
@@ -500,13 +500,13 @@
             animation: turnturbine 3s infinite;
     -webkit-transform-origin: 53% 62% 0;
             transform-origin: 53% 62% 0; }
-    .containerMainSVG .turbine .cls-1 {
+    .containerMainSVGLK .turbine .cls-1 {
       fill: none;
       stroke: #f2f2f2;
       stroke-linecap: round;
       stroke-miterlimit: 10;
       stroke-width: 2.78px; }
-    .containerMainSVG .turbine .cls-2 {
+    .containerMainSVGLK .turbine .cls-2 {
       fill: #e5d7ad; }
 @-webkit-keyframes turnturbine {
   0% {
@@ -522,7 +522,7 @@
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
-  .containerMainSVG .van {
+  .containerMainSVGLK .van {
     position: absolute;
     height: 20px;
     top: 200px;
@@ -531,32 +531,32 @@
             transform: rotateY(180deg);
     -webkit-animation: vanmove 5s infinite;
             animation: vanmove 5s infinite; }
-    .containerMainSVG .van .cls-1, .containerMainSVG .van .cls-2 {
+    .containerMainSVGLK .van .cls-1, .containerMainSVGLK .van .cls-2 {
       fill: none; }
-    .containerMainSVG .van .cls-2 {
+    .containerMainSVGLK .van .cls-2 {
       clip-rule: evenodd; }
-    .containerMainSVG .van .cls-3 {
+    .containerMainSVGLK .van .cls-3 {
       fill: #252545; }
-    .containerMainSVG .van .cls-4 {
+    .containerMainSVGLK .van .cls-4 {
       fill: #f2f2f2; }
-    .containerMainSVG .van .cls-5 {
+    .containerMainSVGLK .van .cls-5 {
       fill: #78cddb; }
-    .containerMainSVG .van .cls-6 {
+    .containerMainSVGLK .van .cls-6 {
       isolation: isolate; }
-    .containerMainSVG .van .cls-7 {
+    .containerMainSVGLK .van .cls-7 {
       -webkit-clip-path: url(#clip-path);
               clip-path: url(#clip-path); }
-    .containerMainSVG .van .cls-8 {
+    .containerMainSVGLK .van .cls-8 {
       -webkit-clip-path: url(#clip-path-2);
               clip-path: url(#clip-path-2); }
-    .containerMainSVG .van .cls-9 {
+    .containerMainSVGLK .van .cls-9 {
       -webkit-clip-path: url(#clip-path-3);
               clip-path: url(#clip-path-3); }
-    .containerMainSVG .van .cls-10 {
+    .containerMainSVGLK .van .cls-10 {
       fill: #71be49; }
-    .containerMainSVG .van .cls-11 {
+    .containerMainSVGLK .van .cls-11 {
       fill: #ccc; }
-    .containerMainSVG .van .cls-12 {
+    .containerMainSVGLK .van .cls-12 {
       fill: #fff; }
 @-webkit-keyframes vanmove {
   0% {
@@ -590,7 +590,7 @@
     right: 60px;
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg); } }
-  .containerMainSVG .car.blue {
+  .containerMainSVGLK .car.blue {
     position: absolute;
     height: 16px;
     top: 116px;
@@ -599,13 +599,13 @@
             transform: rotateY(180deg);
     -webkit-animation: carmove 13s infinite;
             animation: carmove 13s infinite; }
-    .containerMainSVG .car.blue .cls-1 {
+    .containerMainSVGLK .car.blue .cls-1 {
       fill: #252545; }
-    .containerMainSVG .car.blue .cls-2 {
+    .containerMainSVGLK .car.blue .cls-2 {
       fill: #fff; }
-    .containerMainSVG .car.blue .cls-3 {
+    .containerMainSVGLK .car.blue .cls-3 {
       fill: #78cddb; }
-  .containerMainSVG .car.red {
+  .containerMainSVGLK .car.red {
     position: absolute;
     height: 16px;
     bottom: 28px;
@@ -614,24 +614,24 @@
             transform: rotateY(180deg);
     -webkit-animation: carmove 9s infinite;
             animation: carmove 9s infinite; }
-    .containerMainSVG .car.red .cls-1 {
+    .containerMainSVGLK .car.red .cls-1 {
       fill: #F24949; }
-    .containerMainSVG .car.red .cls-2 {
+    .containerMainSVGLK .car.red .cls-2 {
       fill: #fff; }
-    .containerMainSVG .car.red .cls-3 {
+    .containerMainSVGLK .car.red .cls-3 {
       fill: #78cddb; }
-  .containerMainSVG .car.red2 {
+  .containerMainSVGLK .car.red2 {
     position: absolute;
     height: 16px;
     bottom: 123px;
     right: 59px;
     -webkit-animation: carmove2 12s infinite;
             animation: carmove2 12s infinite; }
-    .containerMainSVG .car.red2 .cls-1 {
+    .containerMainSVGLK .car.red2 .cls-1 {
       fill: #F24949; }
-    .containerMainSVG .car.red2 .cls-2 {
+    .containerMainSVGLK .car.red2 .cls-2 {
       fill: #fff; }
-    .containerMainSVG .car.red2 .cls-3 {
+    .containerMainSVGLK .car.red2 .cls-3 {
       fill: #78cddb; }
 @-webkit-keyframes carmove {
   0% {
@@ -697,24 +697,24 @@
     right: 59px;
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg); } }
-.sectors-svg {
+.containerMainSVGLK .sectors-svg {
   position: absolute;
   height: 613px;
   top: -44px;
   left: -177px; }
-  .sectors-svg #Group {
+  .containerMainSVGLK .sectors-svg #Group {
     fill: #252545;
     -webkit-transition: fill 0.5s;
     transition: fill 0.5s; }
-  .sectors-svg .coloured {
+  .containerMainSVGLK .sectors-svg .coloured {
     fill: #89CEDE;
     -webkit-transition: fill 0.5s;
     transition: fill 0.5s; }
-  .sectors-svg .hover:hover .coloured {
+  .containerMainSVGLK .sectors-svg .hover:hover .coloured {
     fill: #747474; }
-  .sectors-svg .hover:hover #Group {
+  .containerMainSVGLK .sectors-svg .hover:hover #Group {
     fill: #fff; }
-  .sectors-svg .glow {
+  .containerMainSVGLK .sectors-svg .glow {
     fill: #fff;
     fill-rule: nonzero;
     stroke: #d1ebf1;
@@ -742,31 +742,31 @@
   100% {
     stroke-width: 2px;
     stroke-opacity: 0.1; } }
-  .sectors-svg .tooltip {
+  .containerMainSVGLK .sectors-svg .tooltip {
     opacity: 1; }
 
-.containerSpeech {
+.containerSpeechLK {
   height: 417px;
   width: 400px;
   position: relative; }
-  .containerSpeech .speech-background {
+  .containerSpeechLK .speech-background {
     position: absolute;
     bottom: 0;
     height: 42%;
     left: 66px; }
-    .containerSpeech .speech-background .cls-1 {
+    .containerSpeechLK .speech-background .cls-1 {
       fill: #71be49; }
-    .containerSpeech .speech-background .cls-2 {
+    .containerSpeechLK .speech-background .cls-2 {
       fill: url(#linear-gradient); }
-    .containerSpeech .speech-background .cls-3 {
+    .containerSpeechLK .speech-background .cls-3 {
       fill: url(#linear-gradient-2); }
-    .containerSpeech .speech-background .cls-4 {
+    .containerSpeechLK .speech-background .cls-4 {
       fill: #fcd72a; }
-    .containerSpeech .speech-background .cls-5 {
+    .containerSpeechLK .speech-background .cls-5 {
       fill: #252545; }
-    .containerSpeech .speech-background .cls-6 {
+    .containerSpeechLK .speech-background .cls-6 {
       fill: url(#linear-gradient-3); }
-  .containerSpeech .speech-lrg {
+  .containerSpeechLK .speech-lrg {
     height: 150px;
     position: absolute;
     z-index: 999;
@@ -776,27 +776,27 @@
             animation: speechLrgShow 4s;
     -webkit-transform-origin: top;
             transform-origin: top; }
-    .containerSpeech .speech-lrg .trans1 {
+    .containerSpeechLK .speech-lrg .trans1 {
       -webkit-animation: speechLrgpplShow 3s;
               animation: speechLrgpplShow 3s;
       fill: #71be49; }
-    .containerSpeech .speech-lrg .trans2 {
+    .containerSpeechLK .speech-lrg .trans2 {
       -webkit-animation: speechLrgpplShow 3.2s;
               animation: speechLrgpplShow 3.2s;
       fill: #71be49; }
-    .containerSpeech .speech-lrg .trans3 {
+    .containerSpeechLK .speech-lrg .trans3 {
       -webkit-animation: speechLrgpplShow 3.4s;
               animation: speechLrgpplShow 3.4s;
       fill: #71be49; }
-    .containerSpeech .speech-lrg .trans4 {
+    .containerSpeechLK .speech-lrg .trans4 {
       -webkit-animation: speechLrgpplShow 3.6s;
               animation: speechLrgpplShow 3.6s;
       fill: #71be49; }
-    .containerSpeech .speech-lrg .trans5 {
+    .containerSpeechLK .speech-lrg .trans5 {
       -webkit-animation: speechLrgpplShow 3.8s;
               animation: speechLrgpplShow 3.8s;
       fill: #71be49; }
-    .containerSpeech .speech-lrg .cls-2 {
+    .containerSpeechLK .speech-lrg .cls-2 {
       fill: none;
       stroke: #78cddb;
       stroke-miterlimit: 10; }
@@ -834,7 +834,7 @@
     fill: none; }
   100% {
     fill: #71be49; } }
-  .containerSpeech .speech-small {
+  .containerSpeechLK .speech-small {
     height: 100px;
     position: absolute;
     right: 100px;
@@ -845,111 +845,111 @@
             transform-origin: top;
     -webkit-animation: speechLrgShow 3s;
             animation: speechLrgShow 3s; }
-    .containerSpeech .speech-small .trans1 {
+    .containerSpeechLK .speech-small .trans1 {
       -webkit-animation: speechLrgpplShow 2.5s;
               animation: speechLrgpplShow 2.5s;
       fill: #71be49; }
-    .containerSpeech .speech-small .trans2 {
+    .containerSpeechLK .speech-small .trans2 {
       -webkit-animation: speechLrgpplShow 2.7s;
               animation: speechLrgpplShow 2.7s;
       fill: #71be49; }
-    .containerSpeech .speech-small .cls-2 {
+    .containerSpeechLK .speech-small .cls-2 {
       fill: none;
       stroke: #78cddb;
       stroke-miterlimit: 10; }
-  .containerSpeech .van {
+  .containerSpeechLK .van {
     height: 60px;
     top: 277px;
     left: 137px;
     position: absolute;
     z-index: 3999; }
-    .containerSpeech .van .cls-1, .containerSpeech .van .cls-2 {
+    .containerSpeechLK .van .cls-1, .containerSpeechLK .van .cls-2 {
       fill: none; }
-    .containerSpeech .van .cls-2 {
+    .containerSpeechLK .van .cls-2 {
       clip-rule: evenodd; }
-    .containerSpeech .van .cls-3 {
+    .containerSpeechLK .van .cls-3 {
       fill: #252545; }
-    .containerSpeech .van .cls-4 {
+    .containerSpeechLK .van .cls-4 {
       fill: #f2f2f2; }
-    .containerSpeech .van .cls-5 {
+    .containerSpeechLK .van .cls-5 {
       fill: #78cddb; }
-    .containerSpeech .van .cls-6 {
+    .containerSpeechLK .van .cls-6 {
       isolation: isolate; }
-    .containerSpeech .van .cls-7 {
+    .containerSpeechLK .van .cls-7 {
       -webkit-clip-path: url(#clip-path);
               clip-path: url(#clip-path); }
-    .containerSpeech .van .cls-8 {
+    .containerSpeechLK .van .cls-8 {
       -webkit-clip-path: url(#clip-path-2);
               clip-path: url(#clip-path-2); }
-    .containerSpeech .van .cls-9 {
+    .containerSpeechLK .van .cls-9 {
       -webkit-clip-path: url(#clip-path-3);
               clip-path: url(#clip-path-3); }
-    .containerSpeech .van .cls-10 {
+    .containerSpeechLK .van .cls-10 {
       fill: #71be49; }
-    .containerSpeech .van .cls-11 {
+    .containerSpeechLK .van .cls-11 {
       fill: #ccc; }
-    .containerSpeech .van .cls-12 {
+    .containerSpeechLK .van .cls-12 {
       fill: #fff; }
-  .containerSpeech .large-cloud {
+  .containerSpeechLK .large-cloud {
     width: 30%;
     position: absolute;
     -webkit-animation: cloud2  4s infinite;
             animation: cloud2  4s infinite;
     top: 20px; }
-    .containerSpeech .large-cloud .cls-1 {
+    .containerSpeechLK .large-cloud .cls-1 {
       fill: #88cede;
       opacity: 0.69; }
-  .containerSpeech .small-cloud {
+  .containerSpeechLK .small-cloud {
     width: 20%;
     top: 400px;
     position: absolute;
     -webkit-animation: cloud2  8s infinite;
             animation: cloud2  8s infinite; }
-    .containerSpeech .small-cloud .cls-1 {
+    .containerSpeechLK .small-cloud .cls-1 {
       fill: #f2f2f2; }
 @keyframes cloud2 {
   0% {
-    right: 20px; }
+    right: 0px; }
   50% {
-    right: -20px; }
+    right: -60px; }
   100% {
-    right: 20px; } }
-  .containerSpeech .large-cloud-2 {
+    right: 0px; } }
+  .containerSpeechLK .large-cloud-2 {
     -webkit-animation: clouds  6s infinite;
             animation: clouds  6s infinite;
     top: 300px; }
 @keyframes clouds {
   0% {
-    left: 10px; }
+    left: -60px; }
   50% {
-    left: -10px; }
+    left: -110px; }
   100% {
-    left: 10px; } }
-  .containerSpeech .small-cloud-2 {
+    left: -60px; } }
+  .containerSpeechLK .small-cloud-2 {
     -webkit-animation: cloud3  4s infinite;
             animation: cloud3  4s infinite;
     top: 50px; }
 @keyframes cloud3 {
   0% {
-    left: 10px; }
+    left: 0px; }
   50% {
-    left: -10px; }
+    left: -20px; }
   100% {
-    left: 10px; } }
-.containerCarPark {
+    left: 0px; } }
+.containerCarParkLK {
   height: 381px;
   width: 350px;
   position: relative;
   margin: 100px; }
-  .containerCarPark .grass {
+  .containerCarParkLK .grass {
     height: 100%;
     -webkit-animation: grass-show 2s;
             animation: grass-show 2s;
     -webkit-transform-origin: bottom;
             transform-origin: bottom; }
-    .containerCarPark .grass .cls-1 {
+    .containerCarParkLK .grass .cls-1 {
       fill: #71be49; }
-    .containerCarPark .grass .cls-2 {
+    .containerCarParkLK .grass .cls-2 {
       fill: #e6e6e6; }
 @-webkit-keyframes grass-show {
   0% {
@@ -965,7 +965,7 @@
   100% {
     -webkit-transform: scaleY(1);
             transform: scaleY(1); } }
-  .containerCarPark .car-park-elems {
+  .containerCarParkLK .car-park-elems {
     height: 100%;
     position: absolute;
     left: 29px;
@@ -974,108 +974,108 @@
             animation: car-park-elems 2s;
     -webkit-transform-origin: bottom;
             transform-origin: bottom; }
-    .containerCarPark .car-park-elems .cls-1, .containerCarPark .car-park-elems .cls-10, .containerCarPark .car-park-elems .cls-12, .containerCarPark .car-park-elems .cls-16, .containerCarPark .car-park-elems .cls-17, .containerCarPark .car-park-elems .cls-2, .containerCarPark .car-park-elems .cls-20, .containerCarPark .car-park-elems .cls-22, .containerCarPark .car-park-elems .cls-24, .containerCarPark .car-park-elems .cls-26, .containerCarPark .car-park-elems .cls-8 {
+    .containerCarParkLK .car-park-elems .cls-1, .containerCarParkLK .car-park-elems .cls-10, .containerCarParkLK .car-park-elems .cls-12, .containerCarParkLK .car-park-elems .cls-16, .containerCarParkLK .car-park-elems .cls-17, .containerCarParkLK .car-park-elems .cls-2, .containerCarParkLK .car-park-elems .cls-20, .containerCarParkLK .car-park-elems .cls-22, .containerCarParkLK .car-park-elems .cls-24, .containerCarParkLK .car-park-elems .cls-26, .containerCarParkLK .car-park-elems .cls-8 {
       fill: none; }
-    .containerCarPark .car-park-elems .cls-2 {
+    .containerCarParkLK .car-park-elems .cls-2 {
       clip-rule: evenodd; }
-    .containerCarPark .car-park-elems .cls-3 {
+    .containerCarParkLK .car-park-elems .cls-3 {
       fill: #f2f2f2; }
-    .containerCarPark .car-park-elems .cls-4 {
+    .containerCarParkLK .car-park-elems .cls-4 {
       fill: #78cddb; }
-    .containerCarPark .car-park-elems .cls-5 {
+    .containerCarParkLK .car-park-elems .cls-5 {
       fill: #1a1a1a; }
-    .containerCarPark .car-park-elems .cls-18, .containerCarPark .car-park-elems .cls-5 {
+    .containerCarParkLK .car-park-elems .cls-18, .containerCarParkLK .car-park-elems .cls-5 {
       opacity: 0.41;
       mix-blend-mode: darken; }
-    .containerCarPark .car-park-elems .cls-13, .containerCarPark .car-park-elems .cls-18, .containerCarPark .car-park-elems .cls-6 {
+    .containerCarParkLK .car-park-elems .cls-13, .containerCarParkLK .car-park-elems .cls-18, .containerCarParkLK .car-park-elems .cls-6 {
       fill: #252545; }
-    .containerCarPark .car-park-elems .cls-7 {
+    .containerCarParkLK .car-park-elems .cls-7 {
       fill: #e6e6e6; }
-    .containerCarPark .car-park-elems .cls-12, .containerCarPark .car-park-elems .cls-13, .containerCarPark .car-park-elems .cls-8 {
+    .containerCarParkLK .car-park-elems .cls-12, .containerCarParkLK .car-park-elems .cls-13, .containerCarParkLK .car-park-elems .cls-8 {
       stroke: #252545; }
-    .containerCarPark .car-park-elems .cls-13, .containerCarPark .car-park-elems .cls-16, .containerCarPark .car-park-elems .cls-17, .containerCarPark .car-park-elems .cls-24, .containerCarPark .car-park-elems .cls-8 {
+    .containerCarParkLK .car-park-elems .cls-13, .containerCarParkLK .car-park-elems .cls-16, .containerCarParkLK .car-park-elems .cls-17, .containerCarParkLK .car-park-elems .cls-24, .containerCarParkLK .car-park-elems .cls-8 {
       stroke-linecap: round; }
-    .containerCarPark .car-park-elems .cls-10, .containerCarPark .car-park-elems .cls-12, .containerCarPark .car-park-elems .cls-16, .containerCarPark .car-park-elems .cls-17, .containerCarPark .car-park-elems .cls-20, .containerCarPark .car-park-elems .cls-22, .containerCarPark .car-park-elems .cls-24, .containerCarPark .car-park-elems .cls-26, .containerCarPark .car-park-elems .cls-8 {
+    .containerCarParkLK .car-park-elems .cls-10, .containerCarParkLK .car-park-elems .cls-12, .containerCarParkLK .car-park-elems .cls-16, .containerCarParkLK .car-park-elems .cls-17, .containerCarParkLK .car-park-elems .cls-20, .containerCarParkLK .car-park-elems .cls-22, .containerCarParkLK .car-park-elems .cls-24, .containerCarParkLK .car-park-elems .cls-26, .containerCarParkLK .car-park-elems .cls-8 {
       stroke-miterlimit: 10; }
-    .containerCarPark .car-park-elems .cls-10, .containerCarPark .car-park-elems .cls-13, .containerCarPark .car-park-elems .cls-8 {
+    .containerCarParkLK .car-park-elems .cls-10, .containerCarParkLK .car-park-elems .cls-13, .containerCarParkLK .car-park-elems .cls-8 {
       stroke-width: 3px; }
-    .containerCarPark .car-park-elems .cls-9 {
+    .containerCarParkLK .car-park-elems .cls-9 {
       -webkit-clip-path: url(#clip-path);
               clip-path: url(#clip-path); }
-    .containerCarPark .car-park-elems .cls-10, .containerCarPark .car-park-elems .cls-16, .containerCarPark .car-park-elems .cls-17, .containerCarPark .car-park-elems .cls-22, .containerCarPark .car-park-elems .cls-24, .containerCarPark .car-park-elems .cls-26 {
+    .containerCarParkLK .car-park-elems .cls-10, .containerCarParkLK .car-park-elems .cls-16, .containerCarParkLK .car-park-elems .cls-17, .containerCarParkLK .car-park-elems .cls-22, .containerCarParkLK .car-park-elems .cls-24, .containerCarParkLK .car-park-elems .cls-26 {
       stroke: #fff; }
-    .containerCarPark .car-park-elems .cls-11 {
+    .containerCarParkLK .car-park-elems .cls-11 {
       fill: #fff; }
-    .containerCarPark .car-park-elems .cls-12 {
+    .containerCarParkLK .car-park-elems .cls-12 {
       stroke-width: 0.93px; }
-    .containerCarPark .car-park-elems .cls-13 {
+    .containerCarParkLK .car-park-elems .cls-13 {
       stroke-linejoin: round; }
-    .containerCarPark .car-park-elems .cls-14 {
+    .containerCarParkLK .car-park-elems .cls-14 {
       -webkit-clip-path: url(#clip-path-2);
               clip-path: url(#clip-path-2); }
-    .containerCarPark .car-park-elems .cls-15 {
+    .containerCarParkLK .car-park-elems .cls-15 {
       opacity: 0.55; }
-    .containerCarPark .car-park-elems .cls-16, .containerCarPark .car-park-elems .cls-24 {
+    .containerCarParkLK .car-park-elems .cls-16, .containerCarParkLK .car-park-elems .cls-24 {
       stroke-width: 14px; }
-    .containerCarPark .car-park-elems .cls-17, .containerCarPark .car-park-elems .cls-22 {
+    .containerCarParkLK .car-park-elems .cls-17, .containerCarParkLK .car-park-elems .cls-22 {
       stroke-width: 2px; }
-    .containerCarPark .car-park-elems .cls-19 {
+    .containerCarParkLK .car-park-elems .cls-19 {
       fill: #fcd72a; }
-    .containerCarPark .car-park-elems .cls-20 {
+    .containerCarParkLK .car-park-elems .cls-20 {
       stroke: #fcd72a; }
-    .containerCarPark .car-park-elems .cls-21 {
+    .containerCarParkLK .car-park-elems .cls-21 {
       -webkit-clip-path: url(#clip-path-4);
               clip-path: url(#clip-path-4); }
-    .containerCarPark .car-park-elems .cls-23 {
+    .containerCarParkLK .car-park-elems .cls-23 {
       -webkit-clip-path: url(#clip-path-5);
               clip-path: url(#clip-path-5); }
-    .containerCarPark .car-park-elems .cls-24 {
+    .containerCarParkLK .car-park-elems .cls-24 {
       opacity: 0.6; }
-    .containerCarPark .car-park-elems .cls-25 {
+    .containerCarParkLK .car-park-elems .cls-25 {
       -webkit-clip-path: url(#clip-path-6);
               clip-path: url(#clip-path-6); }
-    .containerCarPark .car-park-elems .cls-26 {
+    .containerCarParkLK .car-park-elems .cls-26 {
       stroke-width: 4px; }
-    .containerCarPark .car-park-elems .cls-27 {
+    .containerCarParkLK .car-park-elems .cls-27 {
       isolation: isolate; }
-    .containerCarPark .car-park-elems .cls-28 {
+    .containerCarParkLK .car-park-elems .cls-28 {
       -webkit-clip-path: url(#clip-path-7);
               clip-path: url(#clip-path-7); }
-    .containerCarPark .car-park-elems .cls-29 {
+    .containerCarParkLK .car-park-elems .cls-29 {
       -webkit-clip-path: url(#clip-path-8);
               clip-path: url(#clip-path-8); }
-    .containerCarPark .car-park-elems .cls-30 {
+    .containerCarParkLK .car-park-elems .cls-30 {
       -webkit-clip-path: url(#clip-path-9);
               clip-path: url(#clip-path-9); }
-    .containerCarPark .car-park-elems .cls-31 {
+    .containerCarParkLK .car-park-elems .cls-31 {
       fill: #71be49; }
-    .containerCarPark .car-park-elems .cls-32 {
+    .containerCarParkLK .car-park-elems .cls-32 {
       fill: #ccc; }
-    .containerCarPark .car-park-elems .cls-33 {
+    .containerCarParkLK .car-park-elems .cls-33 {
       -webkit-clip-path: url(#clip-path-10);
               clip-path: url(#clip-path-10); }
-    .containerCarPark .car-park-elems .cls-34 {
+    .containerCarParkLK .car-park-elems .cls-34 {
       -webkit-clip-path: url(#clip-path-11);
               clip-path: url(#clip-path-11); }
-    .containerCarPark .car-park-elems .cls-35 {
+    .containerCarParkLK .car-park-elems .cls-35 {
       -webkit-clip-path: url(#clip-path-12);
               clip-path: url(#clip-path-12); }
-    .containerCarPark .car-park-elems .cls-36 {
+    .containerCarParkLK .car-park-elems .cls-36 {
       -webkit-clip-path: url(#clip-path-13);
               clip-path: url(#clip-path-13); }
-    .containerCarPark .car-park-elems .cls-37 {
+    .containerCarParkLK .car-park-elems .cls-37 {
       -webkit-clip-path: url(#clip-path-14);
               clip-path: url(#clip-path-14); }
-    .containerCarPark .car-park-elems .cls-38 {
+    .containerCarParkLK .car-park-elems .cls-38 {
       -webkit-clip-path: url(#clip-path-15);
               clip-path: url(#clip-path-15); }
-    .containerCarPark .car-park-elems .cls-39 {
+    .containerCarParkLK .car-park-elems .cls-39 {
       -webkit-clip-path: url(#clip-path-16);
               clip-path: url(#clip-path-16); }
-    .containerCarPark .car-park-elems .cls-40 {
+    .containerCarParkLK .car-park-elems .cls-40 {
       -webkit-clip-path: url(#clip-path-17);
               clip-path: url(#clip-path-17); }
-    .containerCarPark .car-park-elems .cls-41 {
+    .containerCarParkLK .car-park-elems .cls-41 {
       -webkit-clip-path: url(#clip-path-18);
               clip-path: url(#clip-path-18); }
 @-webkit-keyframes car-park-elems {
@@ -1092,20 +1092,20 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
-  .containerCarPark .cloud {
+  .containerCarParkLK .cloud {
     position: absolute;
     width: 40%;
     z-index: 9999; }
-    .containerCarPark .cloud .cls-1 {
+    .containerCarParkLK .cloud .cls-1 {
       fill: #f2f2f2;
       opacity: 0.69;
       -webkit-animation: opacity-cloud 2s;
               animation: opacity-cloud 2s; }
-  .containerCarPark .cloud1 {
+  .containerCarParkLK .cloud1 {
     top: 76px;
     -webkit-animation: cloud2  6s infinite;
             animation: cloud2  6s infinite; }
-  .containerCarPark .cloud2 {
+  .containerCarParkLK .cloud2 {
     top: -30px;
     width: 30%;
     -webkit-animation: clouds  6s infinite;
@@ -1124,43 +1124,43 @@
     opacity: 0; }
   100% {
     opacity: 0.69; } }
-  .containerCarPark .vans {
+  .containerCarParkLK .vans {
     position: absolute;
     width: 350px;
     height: 100%;
     overflow: hidden; }
-  .containerCarPark .van {
+  .containerCarParkLK .van {
     height: 30px;
     position: absolute;
     z-index: 3999; }
-    .containerCarPark .van .cls-1, .containerCarPark .van .cls-2 {
+    .containerCarParkLK .van .cls-1, .containerCarParkLK .van .cls-2 {
       fill: none; }
-    .containerCarPark .van .cls-2 {
+    .containerCarParkLK .van .cls-2 {
       clip-rule: evenodd; }
-    .containerCarPark .van .cls-3 {
+    .containerCarParkLK .van .cls-3 {
       fill: #252545; }
-    .containerCarPark .van .cls-4 {
+    .containerCarParkLK .van .cls-4 {
       fill: #f2f2f2; }
-    .containerCarPark .van .cls-5 {
+    .containerCarParkLK .van .cls-5 {
       fill: #78cddb; }
-    .containerCarPark .van .cls-6 {
+    .containerCarParkLK .van .cls-6 {
       isolation: isolate; }
-    .containerCarPark .van .cls-7 {
+    .containerCarParkLK .van .cls-7 {
       -webkit-clip-path: url(#clip-path);
               clip-path: url(#clip-path); }
-    .containerCarPark .van .cls-8 {
+    .containerCarParkLK .van .cls-8 {
       -webkit-clip-path: url(#clip-path-2);
               clip-path: url(#clip-path-2); }
-    .containerCarPark .van .cls-9 {
+    .containerCarParkLK .van .cls-9 {
       -webkit-clip-path: url(#clip-path-3);
               clip-path: url(#clip-path-3); }
-    .containerCarPark .van .cls-10 {
+    .containerCarParkLK .van .cls-10 {
       fill: #71be49; }
-    .containerCarPark .van .cls-11 {
+    .containerCarParkLK .van .cls-11 {
       fill: #ccc; }
-    .containerCarPark .van .cls-12 {
+    .containerCarParkLK .van .cls-12 {
       fill: #fff; }
-  .containerCarPark .van1 {
+  .containerCarParkLK .van1 {
     -webkit-animation: van1 10s;
             animation: van1 10s;
     left: 177px;
@@ -1205,7 +1205,7 @@
     top: 144px; }
   100% {
     top: 154px; } }
-  .containerCarPark .van2 {
+  .containerCarParkLK .van2 {
     -webkit-animation: van2 4s;
             animation: van2 4s;
     left: 110px;
@@ -1238,7 +1238,7 @@
     top: 200px; }
   100% {
     left: 110px; } }
-  .containerCarPark .van3 {
+  .containerCarParkLK .van3 {
     right: 125px;
     top: 200px;
     -webkit-transform: rotateY(-180deg);
@@ -1267,7 +1267,7 @@
     opacity: 1; }
   100% {
     right: 125px; } }
-  .containerCarPark .van4 {
+  .containerCarParkLK .van4 {
     right: 55px;
     top: 156px;
     -webkit-transform: rotateY(-180deg);
@@ -1312,77 +1312,77 @@
     right: 50px; }
   100% {
     right: 55px; } }
-.infoPhone {
+.infoPhoneLK {
   position: absolute;
   right: 10%; }
-  .infoPhone .container-phone {
+  .infoPhoneLK .container-phone {
     height: 90vh;
     width: 43.5vh;
     position: relative; }
-    .infoPhone .container-phone .whole-phone {
+    .infoPhoneLK .container-phone .whole-phone {
       position: absolute;
       height: 100%; }
-      .infoPhone .container-phone .whole-phone .st0 {
+      .infoPhoneLK .container-phone .whole-phone .st0 {
         -webkit-clip-path: url(#SVGID_2_);
                 clip-path: url(#SVGID_2_); }
-      .infoPhone .container-phone .whole-phone .st1 {
+      .infoPhoneLK .container-phone .whole-phone .st1 {
         -webkit-clip-path: url(#SVGID_4_);
                 clip-path: url(#SVGID_4_);
         fill: none;
         stroke: #78CDDB;
         stroke-width: 2;
         stroke-miterlimit: 10; }
-      .infoPhone .container-phone .whole-phone .st2 {
+      .infoPhoneLK .container-phone .whole-phone .st2 {
         fill: none;
         stroke: #78CDDB;
         stroke-miterlimit: 10; }
-      .infoPhone .container-phone .whole-phone .st3 {
+      .infoPhoneLK .container-phone .whole-phone .st3 {
         fill: #71BE49; }
-      .infoPhone .container-phone .whole-phone .st4 {
+      .infoPhoneLK .container-phone .whole-phone .st4 {
         fill: #FFFFFF; }
-      .infoPhone .container-phone .whole-phone .st5 {
+      .infoPhoneLK .container-phone .whole-phone .st5 {
         enable-background: new; }
-      .infoPhone .container-phone .whole-phone .st6 {
+      .infoPhoneLK .container-phone .whole-phone .st6 {
         -webkit-clip-path: url(#SVGID_6_);
                 clip-path: url(#SVGID_6_); }
-      .infoPhone .container-phone .whole-phone .st7 {
+      .infoPhoneLK .container-phone .whole-phone .st7 {
         -webkit-clip-path: url(#SVGID_8_);
                 clip-path: url(#SVGID_8_); }
-      .infoPhone .container-phone .whole-phone .st8 {
+      .infoPhoneLK .container-phone .whole-phone .st8 {
         -webkit-clip-path: url(#SVGID_10_);
                 clip-path: url(#SVGID_10_);
         fill: #71BE49; }
-      .infoPhone .container-phone .whole-phone .st9 {
+      .infoPhoneLK .container-phone .whole-phone .st9 {
         display: none; }
-      .infoPhone .container-phone .whole-phone .st10 {
+      .infoPhoneLK .container-phone .whole-phone .st10 {
         display: inline; }
-      .infoPhone .container-phone .whole-phone .st11 {
+      .infoPhoneLK .container-phone .whole-phone .st11 {
         fill: none;
         stroke: #FFFFFF;
         stroke-width: 8;
         stroke-linecap: round;
         stroke-miterlimit: 10; }
-      .infoPhone .container-phone .whole-phone .st12 {
+      .infoPhoneLK .container-phone .whole-phone .st12 {
         fill: none;
         stroke: #E6E6E6;
         stroke-width: 3.526;
         stroke-linecap: round;
         stroke-miterlimit: 10;
         stroke-dasharray: 0,7.0094,0,7.0094; }
-      .infoPhone .container-phone .whole-phone .st13 {
+      .infoPhoneLK .container-phone .whole-phone .st13 {
         fill: none;
         stroke: #FFFFFF;
         stroke-width: 7;
         stroke-linecap: round;
         stroke-miterlimit: 10; }
-    .infoPhone .container-phone .circle {
+    .infoPhoneLK .container-phone .circle {
       height: 30%;
       position: absolute;
       top: 39%;
       left: 18%;
       -webkit-animation: spin 10s infinite;
               animation: spin 10s infinite; }
-      .infoPhone .container-phone .circle .cls-1 {
+      .infoPhoneLK .container-phone .circle .cls-1 {
         fill: none;
         stroke: #e6e6e6;
         stroke-linecap: round;
@@ -1403,7 +1403,7 @@
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
-    .infoPhone .container-phone .small-lines {
+    .infoPhoneLK .container-phone .small-lines {
       position: absolute;
       left: 37%;
       width: 16%;
@@ -1412,13 +1412,13 @@
               transform-origin: left;
       -webkit-animation: widthx 2s;
               animation: widthx 2s; }
-      .infoPhone .container-phone .small-lines .cls-1 {
+      .infoPhoneLK .container-phone .small-lines .cls-1 {
         fill: none;
         stroke: #fff;
         stroke-linecap: round;
         stroke-miterlimit: 10;
         stroke-width: 8px; }
-    .infoPhone .container-phone .long-lines {
+    .infoPhoneLK .container-phone .long-lines {
       position: absolute;
       left: 20%;
       width: 45%;
@@ -1427,7 +1427,7 @@
               transform-origin: left;
       -webkit-animation: widthx 5s;
               animation: widthx 5s; }
-      .infoPhone .container-phone .long-lines .cls-1 {
+      .infoPhoneLK .container-phone .long-lines .cls-1 {
         fill: none;
         stroke: #fff;
         stroke-linecap: round;
@@ -1447,15 +1447,15 @@
   100% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1); } }
-    .infoPhone .container-phone .ticks {
+    .infoPhoneLK .container-phone .ticks {
       position: absolute;
       width: 9%;
       height: 5%;
       top: 26%;
       right: 22%; }
-      .infoPhone .container-phone .ticks div {
+      .infoPhoneLK .container-phone .ticks div {
         background: #fff; }
-      .infoPhone .container-phone .ticks .tick1 {
+      .infoPhoneLK .container-phone .ticks .tick1 {
         height: 57%;
         width: 15%;
         -webkit-transform: rotate(-45deg);
@@ -1467,14 +1467,14 @@
                 transform-origin: top left;
         -webkit-animation: tick1 1.5s;
                 animation: tick1 1.5s; }
-      .infoPhone .container-phone .ticks .tick2 {
+      .infoPhoneLK .container-phone .ticks .tick2 {
         height: 100%;
         width: 15%;
         -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
         position: absolute;
         left: 91%;
-        top: -12%;
+        top: -8%;
         -webkit-animation: tick2 3s;
                 animation: tick2 3s; }
 @-webkit-keyframes tick1 {
@@ -1501,39 +1501,41 @@
     opacity: 0; }
   55% {
     opacity: 1; } }
-  .infoPhone .phone-1 {
+  .infoPhoneLK .phone-1 {
     -webkit-transform: translateY(-55%);
             transform: translateY(-55%); }
-  .infoPhone .phone-2 {
+  .infoPhoneLK .phone-2 {
     -webkit-transform: translateY(-50%) translateX(20%);
             transform: translateY(-50%) translateX(20%); }
 
-.contactSVGS {
+.contactSVGSLK {
   height: 450px;
   width: 400px;
   position: absolute;
   margin: 100px; }
-  .contactSVGS .grass {
+  .contactSVGSLK .grass {
     position: absolute;
     bottom: 0; }
-    .contactSVGS .grass .cls-1 {
+    .contactSVGSLK .grass .cls-1 {
       fill: #71be49; }
-    .contactSVGS .grass .cls-2 {
+    .contactSVGSLK .grass .cls-2 {
       fill: url(#linear-gradient); }
-  .contactSVGS .phone-box {
+  .contactSVGSLK .phone-box {
     position: absolute;
     height: 175px;
     left: 143px;
     bottom: 153px;
-    -webkit-animation: phone-height 3s;
-            animation: phone-height 3s; }
-    .contactSVGS .phone-box .cls-1 {
+    -webkit-animation: phone-height 6s;
+            animation: phone-height 6s;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom; }
+    .contactSVGSLK .phone-box .cls-1 {
       fill: #f24949; }
-    .contactSVGS .phone-box .cls-2 {
+    .contactSVGSLK .phone-box .cls-2 {
       fill: #fff; }
-    .contactSVGS .phone-box .cls-3 {
+    .contactSVGSLK .phone-box .cls-3 {
       fill: #78cddb; }
-    .contactSVGS .phone-box .cls-4 {
+    .contactSVGSLK .phone-box .cls-4 {
       fill: #1a1a1a;
       opacity: 0.41;
       mix-blend-mode: darken; }
@@ -1542,59 +1544,89 @@
     -webkit-transform: scaleY(0);
             transform: scaleY(0);
     bottom: 6px; }
-  49% {
+  24% {
+    -webkit-transform: scaleY(0.6);
+            transform: scaleY(0.6);
+    bottom: 6px; }
+  25% {
     -webkit-transform: scaleY(0.6);
             transform: scaleY(0.6);
     bottom: 6px; }
   50% {
-    -webkit-transform: scaleY(0.6);
-            transform: scaleY(0.6);
-    bottom: 6px; }
-  100% {
     bottom: 153px;
     -webkit-transform: scaleY(1);
-            transform: scaleY(1); } }
+            transform: scaleY(1); }
+  60% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg); }
+  70% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  80% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg); }
+  90% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); } }
 @keyframes phone-height {
   0% {
     -webkit-transform: scaleY(0);
             transform: scaleY(0);
     bottom: 6px; }
-  49% {
+  24% {
+    -webkit-transform: scaleY(0.6);
+            transform: scaleY(0.6);
+    bottom: 6px; }
+  25% {
     -webkit-transform: scaleY(0.6);
             transform: scaleY(0.6);
     bottom: 6px; }
   50% {
-    -webkit-transform: scaleY(0.6);
-            transform: scaleY(0.6);
-    bottom: 6px; }
-  100% {
     bottom: 153px;
     -webkit-transform: scaleY(1);
-            transform: scaleY(1); } }
-  .contactSVGS .overflow-grass {
+            transform: scaleY(1); }
+  60% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg); }
+  70% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  80% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg); }
+  90% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); } }
+  .contactSVGSLK .overflow-grass {
     position: absolute;
     height: 175px;
     bottom: 6px;
     left: 58px; }
-    .contactSVGS .overflow-grass .cls-1 {
+    .contactSVGSLK .overflow-grass .cls-1 {
       fill: #71be49; }
-    .contactSVGS .overflow-grass .cls-2 {
+    .contactSVGSLK .overflow-grass .cls-2 {
       fill: url(#linear-gradient); }
-    .contactSVGS .overflow-grass .cls-3 {
+    .contactSVGSLK .overflow-grass .cls-3 {
       fill: url(#linear-gradient-2); }
-  .contactSVGS .flower {
+  .contactSVGSLK .flower {
     position: absolute;
     height: 40px; }
-    .contactSVGS .flower .cls-1 {
+    .contactSVGSLK .flower .cls-1 {
       fill: #fcd72a; }
-    .contactSVGS .flower .cls-2 {
+    .contactSVGSLK .flower .cls-2 {
       fill: #252545; }
-  .contactSVGS .flower1 {
+  .contactSVGSLK .flower1 {
     bottom: 37px;
     left: 106px;
     -webkit-animation: sunturn 2s infinite;
             animation: sunturn 2s infinite; }
-  .contactSVGS .flower2 {
+  .contactSVGSLK .flower2 {
     left: 146px;
     bottom: 60px;
     -webkit-animation: sunturn 5s infinite;
@@ -1613,84 +1645,72 @@
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
-  .contactSVGS .cloud {
+  .contactSVGSLK .cloud {
     position: absolute; }
-    .contactSVGS .cloud .cls-1 {
+    .contactSVGSLK .cloud .cls-1 {
       fill: #88cede;
       opacity: 0.69; }
-  .contactSVGS .cloud1 {
+  .contactSVGSLK .cloud1 {
     width: 220px;
     top: 50px;
     -webkit-animation: clouds  6s infinite;
             animation: clouds  6s infinite; }
-  .contactSVGS .cloud2 {
+  .contactSVGSLK .cloud2 {
     width: 140px;
     top: 200px;
     -webkit-animation: cloud2  6s infinite;
             animation: cloud2  6s infinite; }
 
-img {
-  position: absolute;
-  width: 800px; }
-
-.tree-container {
-  margin: auto; }
-
-.tree {
+.tree-containerLK .tree {
   height: 364px;
   width: 364px;
   position: absolute;
   z-index: 2000;
   vertical-align: bottom; }
-
-.blob div {
+.tree-containerLK .blob div {
   background-color: #6A9B4B;
   display: inline-block;
   padding: 0;
   margin: 0 -10%;
   vertical-align: middle;
   text-align: center; }
-.blob div:nth-child(1) {
+.tree-containerLK .blob div:nth-child(1) {
   border-radius: 50%;
   width: 35%;
   height: 100%; }
-.blob div:nth-child(2) {
+.tree-containerLK .blob div:nth-child(2) {
   width: 10%;
   height: 100%; }
-.blob div:nth-child(3) {
+.tree-containerLK .blob div:nth-child(3) {
   border-radius: 50%;
   width: 35%;
   height: 100%; }
-
-.first-blob {
+.tree-containerLK .first-blob {
   height: 0%;
   width: 70%;
   -webkit-transition: height 1.3s;
   transition: height 1.3s;
   -webkit-transition-delay: 1s;
           transition-delay: 1s; }
-  .first-blob div:nth-child(1) {
+  .tree-containerLK .first-blob div:nth-child(1) {
     margin-left: -3%; }
-  .first-blob div:nth-child(2) {
+  .tree-containerLK .first-blob div:nth-child(2) {
     width: 0%; }
-
-.second-blob {
+.tree-containerLK .second-blob {
   height: 0%;
   width: 90%;
   -webkit-transition: height 1s;
   transition: height 1s;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s; }
-  .second-blob div:nth-child(1) {
+  .tree-containerLK .second-blob div:nth-child(1) {
     margin-left: -10%; }
-
-.third-blob {
+.tree-containerLK .third-blob {
   height: 0%;
   width: 100%;
   -webkit-transition: height 0.7s;
   transition: height 0.7s; }
-
-.trunk {
+.tree-containerLK .trunk {
   height: 0%;
   opacity: 0;
   -webkit-transition: all 0.3s;
@@ -1700,13 +1720,12 @@ img {
   margin: auto 8%;
   z-index: -1;
   position: relative; }
-
-.branch {
+.tree-containerLK .branch {
   height: 15%;
   width: 15%;
   -webkit-transition: height 2s;
   transition: height 2s; }
-  .branch .circle {
+  .tree-containerLK .branch .circle {
     opacity: 0;
     -webkit-transition: opacity 2s;
     transition: opacity 2s;
@@ -1720,39 +1739,38 @@ img {
             transform: translateY(-155%);
     -webkit-transition-delay: 1.3s;
             transition-delay: 1.3s; }
-  .branch .circle-skew {
+  .tree-containerLK .branch .circle-skew {
     -webkit-transform: skew(20deg);
             transform: skew(20deg); }
-
-.round-tree .blob {
+.tree-containerLK .round-tree .blob {
   background-color: #FFD800;
   border-radius: 100%; }
-.round-tree .second-blob {
+.tree-containerLK .round-tree .second-blob {
   width: 20%;
   height: 0%;
   margin-bottom: -34%;
   margin-left: -10%; }
-.round-tree .third-blob {
+.tree-containerLK .round-tree .third-blob {
   width: 30%;
   height: 0%;
   margin-bottom: -2%; }
-.round-tree .trunk {
+.tree-containerLK .round-tree .trunk {
   height: 0%;
   width: 3%;
   opacity: 0;
   background-color: #E7D7AA;
   -webkit-transition: all 1.3s;
   transition: all 1.3s; }
-.round-tree .circle {
+.tree-containerLK .round-tree .circle {
   opacity: 0;
-  -webkit-transform: translateY(-177%);
-          transform: translateY(-177%);
+  -webkit-transform: translateY(-210%);
+          transform: translateY(-210%);
   border: 7px solid #E7D7AA; }
-.round-tree .circle-skew {
+.tree-containerLK .round-tree .circle-skew {
   -webkit-transform: skew(40deg);
           transform: skew(40deg); }
 
-.containerSpeech .round-tree {
+.containerSpeechLK .tree-containerLK .round-tree {
   height: 230px;
   width: 230px;
   bottom: -41px;
@@ -1760,49 +1778,49 @@ img {
   position: absolute;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg); }
-  .containerSpeech .round-tree .blob {
+  .containerSpeechLK .tree-containerLK .round-tree .blob {
     background-color: #C8E583; }
-.containerSpeech .tall-tree {
+.containerSpeechLK .tree-containerLK .tall-tree {
   height: 100px;
   width: 100px;
   bottom: 80px;
   right: 50px; }
 
-.containerCarPark .round-tree {
+.containerCarParkLK .tree-containerLK .round-tree {
   position: absolute;
   height: 150px;
   width: 150px;
   bottom: -22px;
   right: -89px; }
-  .containerCarPark .round-tree .blob {
+  .containerCarParkLK .tree-containerLK .round-tree .blob {
     background-color: #C8E583; }
-  .containerCarPark .round-tree .circle {
+  .containerCarParkLK .tree-containerLK .round-tree .circle {
     border: 3px solid #E7D7AA; }
-.containerCarPark .round-tree.tree2 {
+.containerCarParkLK .tree-containerLK .round-tree.tree2 {
   position: absolute;
   height: 150px;
   width: 150px;
   top: 57px;
   left: 30px; }
-  .containerCarPark .round-tree.tree2 .blob {
+  .containerCarParkLK .tree-containerLK .round-tree.tree2 .blob {
     background-color: #fcd72a; }
-.containerCarPark .tall-tree {
+.containerCarParkLK .tree-containerLK .tall-tree {
   position: absolute;
   height: 80px;
   width: 65px; }
-  .containerCarPark .tall-tree .trunk {
+  .containerCarParkLK .tree-containerLK .tall-tree .trunk {
     margin: auto 10%; }
-  .containerCarPark .tall-tree .circle {
+  .containerCarParkLK .tree-containerLK .tall-tree .circle {
     border: 3px solid #E7D7AA; }
-.containerCarPark .tall-tree.tree1 {
+.containerCarParkLK .tree-containerLK .tall-tree.tree1 {
   bottom: 10px;
   left: 9px; }
-.containerCarPark .tall-tree.tree2 {
+.containerCarParkLK .tree-containerLK .tall-tree.tree2 {
   position: absolute;
   right: 9px;
   top: -18px; }
 
-.contactSVGS .round-tree {
+.contactSVGSLK .tree-containerLK .round-tree {
   height: 300px;
   width: 300px;
   bottom: -160px;
@@ -1810,31 +1828,30 @@ img {
   position: absolute;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg); }
-  .contactSVGS .round-tree .blob {
+  .contactSVGSLK .tree-containerLK .round-tree .blob {
     background-color: #C8E583; }
-.contactSVGS .tall-tree {
+.contactSVGSLK .tree-containerLK .tall-tree {
   height: 100px;
   width: 100px;
   top: 131px;
   left: 86px; }
 
-.tree-animate .first-blob, .tree-animate .second-blob, .tree-animate .third-blob {
+.tree-containerLK .tree-animate .first-blob, .tree-containerLK .tree-animate .second-blob, .tree-containerLK .tree-animate .third-blob {
   height: 25%;
   opacity: 1; }
-.tree-animate .trunk {
+.tree-containerLK .tree-animate .trunk {
   height: 15%;
   opacity: 1; }
-.tree-animate .circle {
+.tree-containerLK .tree-animate .circle {
   opacity: 1; }
-
-.round-tree-animate .second-blob {
+.tree-containerLK .round-tree-animate .second-blob {
   height: 20%; }
-.round-tree-animate .third-blob {
+.tree-containerLK .round-tree-animate .third-blob {
   height: 30%; }
-.round-tree-animate .trunk {
+.tree-containerLK .round-tree-animate .trunk {
   height: 25%;
   opacity: 1; }
-.round-tree-animate .circle {
+.tree-containerLK .round-tree-animate .circle {
   opacity: 1; }
 
 /*# sourceMappingURL=base.css.map */
