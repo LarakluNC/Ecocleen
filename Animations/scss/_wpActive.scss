@@ -1,0 +1,374 @@
+
+@media only screen and (min-width: 800px) {
+	.ppsect-one-home.active {
+		.containerMainSVGLK {
+			.large-cloud {
+				animation: cloud2  4s infinite;
+			}
+			.small-cloud {
+				animation: cloud2  8s infinite;
+			}
+			.large-cloud-2 {
+				animation: clouds  6s infinite;
+			}	
+			.small-cloud-2 {
+				animation: cloud3  4s infinite;
+			}	
+			.turbine {
+				animation: turnturbine 3s infinite linear;
+			}
+			.turbine2 {
+				animation: turnturbine 2.5s infinite linear;
+			}
+			.van {
+				animation: vanmove 5s infinite;
+			}
+			.car.blue {
+				animation: carmove3 13s infinite;
+			}
+			.car.red {
+				animation: carmove 5s infinite;
+			}
+			.car.red2 {
+				animation: carmove2 7s infinite;
+			}
+			.sectors-svg {
+				.glow {	
+					animation: pulse-ring 3s infinite;
+				}
+			}
+		}
+	}
+	.pp-sect-two.active {
+		.containerSpeechLK { 		
+			.speech-lrg {
+				.trans1 {
+					animation: speechLrgpplShow 3s;
+				}
+				.trans2 {
+					animation: speechLrgpplShow 3.2s;
+				}
+				.trans3 {
+					animation: speechLrgpplShow 3.4s;
+				}
+				.trans4 {
+					animation: speechLrgpplShow 3.6s;
+				}
+				.trans5 {
+					animation: speechLrgpplShow 3.8s;
+				}
+				animation: speechLrgShow 4s;
+			}
+			.speech-small {
+				animation: speechLrgShow 4s;
+				.trans1 {
+					animation: speechLrgpplShow 2.5s;
+				}
+				.trans2 {
+					animation: speechLrgpplShow 2.7s;
+				}
+				animation: speechLrgShow 3s;
+			}
+			.large-cloud {
+				animation: cloud2  4s infinite;
+			}
+			.small-cloud {
+				animation: cloud2  8s infinite;
+			}
+			.large-cloud-2 {
+				animation: clouds  6s infinite;
+			}	
+			.small-cloud-2 {
+				animation: cloud3  4s infinite;
+			}	
+		}
+	}
+	.pp-sect-three.active {
+		.containerCarParkLK {
+			.build1 {
+				animation:builds-show-1 2s;
+			}	
+			.build2 {
+				animation:builds-show-2 2s;
+			}
+			.build3 {
+				animation:builds-show-3 2s;
+			}
+			.build4 {
+				animation:builds-show-4 2s;
+			}
+			.lines {
+				animation:builds-show-3 2s;
+				
+			}
+			.grass {
+				animation: grass-show 2s;
+			}
+			.car-park-elems {
+				animation: car-park-elems 2s;
+			}
+			.cloud {
+				.cls-1{
+					animation: opacity-cloud 2s;
+				}
+			}
+			.cloud1 {
+				animation: cloud2  6s infinite;
+			}
+			.cloud2 {
+				animation: clouds  6s infinite;
+			}
+			.van1 {
+				animation: van1 7s;
+			}
+			.van2 {
+				animation: van2 6s;
+			}
+			.van3 {
+				animation: van3 2s;
+			}
+			.van4 {
+				animation: van4 9s;
+			}
+			
+		}
+	}
+	.pp-sect-four.active {
+		.infoPhoneLK {
+			.container-phone {
+				.circle {
+					animation: spin 10s infinite;
+				}
+				.small-lines {
+					animation: widthx 2s;
+				}
+				.long-lines {
+					animation: widthx 5s;
+				}
+				.pointer {
+					animation: pointerBuzz 4s infinite;
+				}
+				.ticks {
+					.tick1{
+						animation: tick1 1.5s;
+					}	
+					.tick2 {
+						animation: tick2 3s;
+					}
+				}
+			}
+		}
+	}
+	.pp-sect-six.active {
+		.contactSVGSLK {
+			.cloud1 {
+				animation: clouds  6s infinite;
+			}
+			.cloud2 {
+				animation: cloud2  6s infinite;
+			}
+			.phone-box {
+				animation: phone-height 6s;
+			}
+			.flower2{
+				animation: sunturn 2s infinite;
+			}
+			.flower1 {
+				animation: sunturn 2s infinite;
+			}
+			
+		}
+	}
+}
+@media only screen and (max-width: 800px) {
+	.containerMainSVGLK {
+		.large-cloud {
+			animation: cloud2  4s infinite;
+		}
+		.small-cloud {
+			animation: cloud2  8s infinite;
+		}
+		.large-cloud-2 {
+			animation: clouds  6s infinite;
+		}	
+		.small-cloud-2 {
+			animation: cloud3  4s infinite;
+		}	
+		.turbine {
+			animation: turnturbine 3s infinite;
+		}
+		.turbine2 {
+			animation: turnturbine 2.5s infinite;
+		}
+		.van {
+			animation: vanmove 5s infinite;
+		}
+		.car.blue {
+			animation: carmove3 13s infinite;
+		}
+		.car.red {
+			animation: carmove 5s infinite;
+		}
+		.car.red2 {
+			animation: carmove2 7s infinite;
+		}
+		.sectors-svg {
+			.glow {	
+				animation: pulse-ring 3s infinite;
+			}
+		}
+	}
+
+	.containerSpeechLK { 		
+		.speech-lrg {
+			.trans1 {
+				animation: speechLrgpplShow 3s;
+			}
+			.trans2 {
+				animation: speechLrgpplShow 3.2s;
+			}
+			.trans3 {
+				animation: speechLrgpplShow 3.4s;
+			}
+			.trans4 {
+				animation: speechLrgpplShow 3.6s;
+			}
+			.trans5 {
+				animation: speechLrgpplShow 3.8s;
+			}
+			animation: speechLrgShow 4s;
+		}
+		.speech-small {
+			animation: speechLrgShow 4s;
+			.trans1 {
+				animation: speechLrgpplShow 2.5s;
+			}
+			.trans2 {
+				animation: speechLrgpplShow 2.7s;
+			}
+			animation: speechLrgShow 3s;
+		}
+		.large-cloud {
+			animation: cloud2  4s infinite;
+		}
+		.small-cloud {
+			animation: cloud2  8s infinite;
+		}
+		.large-cloud-2 {
+			animation: clouds  6s infinite;
+		}	
+		.small-cloud-2 {
+			animation: cloud3  4s infinite;
+		}	
+	}
+
+	.containerCarParkLK {
+		.build1 {
+			animation:builds-show-1 2s;
+		}	
+		.build2 {
+			animation:builds-show-2 2s;
+		}
+		.build3 {
+			animation:builds-show-3 2s;
+		}
+		.build4 {
+			animation:builds-show-4 2s;
+		}
+		.lines {
+			animation:builds-show-3 2s;
+			
+		}
+		.grass {
+			animation: grass-show 2s;
+		}
+		.car-park-elems {
+			animation: car-park-elems 2s;
+		}
+		.cloud {
+			.cls-1{
+				animation: opacity-cloud 2s;
+			}
+		}
+		.cloud1 {
+			animation: cloud2  6s infinite;
+		}
+		.cloud2 {
+			animation: clouds  6s infinite;
+		}
+		.van1 {
+			animation: van1 7s;
+		}
+		.van2 {
+			animation: van2 6s;
+		}
+		.van3 {
+			animation: van3 2s;
+		}
+		.van4 {
+			animation: van4 9s;
+		}
+		
+	}
+
+	.infoPhoneLK {
+		.container-phone {
+			.circle {
+				animation: spin 10s infinite;
+			}
+			.small-lines {
+				animation: widthx 2s;
+			}
+			.long-lines {
+				animation: widthx 5s;
+			}
+			.pointer {
+				animation: pointerBuzz 4s infinite;
+			}
+			.ticks {
+				.tick1{
+					animation: tick1 1.5s;
+				}	
+				.tick2 {
+					animation: tick2 3s;
+				}
+			}
+		}
+	}
+
+	.contactSVGSLK {
+		.cloud1 {
+			animation: clouds  6s infinite;
+		}
+		.cloud2 {
+			animation: cloud2  6s infinite;
+		}
+		.phone-box {
+			animation: phone-height 6s;
+		}
+		.flower2{
+			animation: sunturn 2s infinite;
+		}
+		.flower1 {
+			animation: sunturn 2s infinite;
+		}
+		
+	}
+}
+
+
+
+.containerMapLK {
+	.map-container {
+		.clouds {
+			animation: clouds  6s infinite;
+		}
+		.cloud2 {
+			animation: cloud2  8s infinite;
+		}	
+		.cloud3 {
+			animation: cloud3  3s infinite;
+		}
+	}
+}	
+

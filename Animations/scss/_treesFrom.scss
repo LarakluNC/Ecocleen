@@ -91,7 +91,7 @@
 		.circle {
 			opacity:0;
 			top:-250%;
-			transition: opacity 2s;
+			transition: opacity 0s;
 			height:100%;
 			width:100%;
 			border-radius: 50%;
@@ -100,9 +100,7 @@
 			position: relative;
 			transition-delay: 1.3s;
 		}
-		.circle-skew {
-			transform: skew(20deg);
-		}
+
 	}
 
 
@@ -140,14 +138,11 @@
 		}
 		.circle {
 			opacity:0;	
-			transition: opacity 0.5s;
+			transition: opacity 0s;
 			transition-delay: 0.8s;
-			transform: translateY(-210%);
 			border: 7px solid #E7D7AA;
+			display:none;
 
-		}
-		.circle-skew {
-			transform: skew(40deg);
 		}
 
 	}

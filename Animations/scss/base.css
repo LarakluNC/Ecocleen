@@ -1,6 +1,12 @@
 .containerMapLK {
   height: 650px;
-  max-width: 469px; }
+  width: 469px; }
+  @media only screen and (max-width: 800px) {
+    .containerMapLK {
+      width: 300px;
+      height: auto;
+      display: block;
+      margin: auto; } }
   .containerMapLK .map-container {
     height: 100%;
     position: relative; }
@@ -17,6 +23,30 @@
         fill: #71BE49; }
       .containerMapLK .map-container .main-map-svg .st1 {
         fill: #FFFFFF; }
+    .containerMapLK .map-container .moundx1 {
+      position: absolute;
+      left: 158px;
+      top: 98px;
+      width: 73px; }
+      @media only screen and (max-width: 800px) {
+        .containerMapLK .map-container .moundx1 {
+          display: none; } }
+    .containerMapLK .map-container .moundx2 {
+      position: absolute;
+      left: 227px;
+      top: 368px;
+      width: 123px; }
+      @media only screen and (max-width: 800px) {
+        .containerMapLK .map-container .moundx2 {
+          display: none; } }
+    .containerMapLK .map-container .moundx3 {
+      position: absolute;
+      left: 151px;
+      bottom: 178px;
+      width: 70px; }
+      @media only screen and (max-width: 800px) {
+        .containerMapLK .map-container .moundx3 {
+          display: none; } }
     .containerMapLK .map-container .trees {
       max-height: 650px;
       position: absolute;
@@ -88,9 +118,7 @@
       top: 0;
       pointer-events: none;
       z-index: 2;
-      position: absolute;
-      -webkit-animation: clouds  6s infinite;
-              animation: clouds  6s infinite; }
+      position: absolute; }
       .containerMapLK .map-container .clouds .st0 {
         opacity: 0.69;
         fill: #88CEDE; }
@@ -108,9 +136,6 @@
     left: -30px; }
   100% {
     left: 0px; } }
-    .containerMapLK .map-container .cloud2 {
-      -webkit-animation: cloud2  8s infinite;
-              animation: cloud2  8s infinite; }
 @-webkit-keyframes cloud2 {
   0% {
     right: 40px; }
@@ -125,9 +150,6 @@
     right: -10px; }
   100% {
     right: 40px; } }
-    .containerMapLK .map-container .cloud3 {
-      -webkit-animation: cloud3  3s infinite;
-              animation: cloud3  3s infinite; }
 @-webkit-keyframes cloud3 {
   0% {
     left: 0px; }
@@ -210,12 +232,22 @@
   .containerMapLK .south-west {
     left: 57px;
     top: 544px; }
+  @media only screen and (max-width: 800px) {
+    .containerMapLK .pop {
+      left: 0;
+      top: 0; } }
 
 .containerMainSVGLK {
   margin: 100px;
+  margin-left: 130px;
   height: 525px;
   position: relative;
   width: 455px; }
+  @media only screen and (max-width: 800px) {
+    .containerMainSVGLK {
+      height: auto;
+      margin: 0;
+      margin-left: -25px; } }
   .containerMainSVGLK .main-svg {
     height: 100%; }
     .containerMainSVGLK .main-svg .cls-1, .containerMainSVGLK .main-svg .cls-10, .containerMainSVGLK .main-svg .cls-12, .containerMainSVGLK .main-svg .cls-17, .containerMainSVGLK .main-svg .cls-19, .containerMainSVGLK .main-svg .cls-22, .containerMainSVGLK .main-svg .cls-23, .containerMainSVGLK .main-svg .cls-28, .containerMainSVGLK .main-svg .cls-29, .containerMainSVGLK .main-svg .cls-31, .containerMainSVGLK .main-svg .cls-36, .containerMainSVGLK .main-svg .cls-37, .containerMainSVGLK .main-svg .cls-39, .containerMainSVGLK .main-svg .cls-41, .containerMainSVGLK .main-svg .cls-43, .containerMainSVGLK .main-svg .cls-51, .containerMainSVGLK .main-svg .cls-57, .containerMainSVGLK .main-svg .cls-58, .containerMainSVGLK .main-svg .cls-62, .containerMainSVGLK .main-svg .cls-63, .containerMainSVGLK .main-svg .cls-66, .containerMainSVGLK .main-svg .cls-72, .containerMainSVGLK .main-svg .cls-73 {
@@ -432,8 +464,6 @@
   .containerMainSVGLK .large-cloud {
     width: 30%;
     position: absolute;
-    -webkit-animation: cloud2  4s infinite;
-            animation: cloud2  4s infinite;
     top: 20px; }
     .containerMainSVGLK .large-cloud .cls-1 {
       fill: #88cede;
@@ -441,9 +471,7 @@
   .containerMainSVGLK .small-cloud {
     width: 20%;
     top: 400px;
-    position: absolute;
-    -webkit-animation: cloud2  8s infinite;
-            animation: cloud2  8s infinite; }
+    position: absolute; }
     .containerMainSVGLK .small-cloud .cls-1 {
       fill: #f2f2f2; }
 @keyframes cloud2 {
@@ -454,8 +482,6 @@
   100% {
     right: 0px; } }
   .containerMainSVGLK .large-cloud-2 {
-    -webkit-animation: clouds  6s infinite;
-            animation: clouds  6s infinite;
     top: 300px; }
 @keyframes clouds {
   0% {
@@ -465,8 +491,6 @@
   100% {
     left: 0px; } }
   .containerMainSVGLK .small-cloud-2 {
-    -webkit-animation: cloud3  4s infinite;
-            animation: cloud3  4s infinite;
     top: 50px; }
 @keyframes cloud3 {
   0% {
@@ -480,8 +504,6 @@
     height: 30px;
     right: 14px;
     top: 163px;
-    -webkit-animation: turnturbine 3s infinite;
-            animation: turnturbine 3s infinite;
     -webkit-transform-origin: 53% 62% 0;
             transform-origin: 53% 62% 0; }
     .containerMainSVGLK .turbine .cls-1 {
@@ -493,8 +515,6 @@
     .containerMainSVGLK .turbine .cls-2 {
       fill: #e5d7ad; }
   .containerMainSVGLK .turbine2 {
-    -webkit-animation: turnturbine 2.5s infinite;
-            animation: turnturbine 2.5s infinite;
     right: 144px;
     top: 153px; }
 @-webkit-keyframes turnturbine {
@@ -517,9 +537,7 @@
     top: 200px;
     right: 200px;
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-    -webkit-animation: vanmove 5s infinite;
-            animation: vanmove 5s infinite; }
+            transform: rotateY(180deg); }
     .containerMainSVGLK .van .cls-1, .containerMainSVGLK .van .cls-2 {
       fill: none; }
     .containerMainSVGLK .van .cls-2 {
@@ -585,9 +603,7 @@
     top: 116px;
     left: 187px;
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-    -webkit-animation: carmove3 13s infinite;
-            animation: carmove3 13s infinite; }
+            transform: rotateY(180deg); }
     .containerMainSVGLK .car.blue .cls-1 {
       fill: #252545; }
     .containerMainSVGLK .car.blue .cls-2 {
@@ -600,28 +616,30 @@
     bottom: 28px;
     left: 144px;
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-    -webkit-animation: carmove 5s infinite;
-            animation: carmove 5s infinite; }
+            transform: rotateY(180deg); }
     .containerMainSVGLK .car.red .cls-1 {
       fill: #F24949; }
     .containerMainSVGLK .car.red .cls-2 {
       fill: #fff; }
     .containerMainSVGLK .car.red .cls-3 {
       fill: #78cddb; }
+    @media only screen and (max-width: 800px) {
+      .containerMainSVGLK .car.red {
+        bottom: 35px; } }
   .containerMainSVGLK .car.red2 {
     position: absolute;
     height: 16px;
     bottom: 123px;
-    right: 59px;
-    -webkit-animation: carmove2 7s infinite;
-            animation: carmove2 7s infinite; }
+    right: 59px; }
     .containerMainSVGLK .car.red2 .cls-1 {
       fill: #F24949; }
     .containerMainSVGLK .car.red2 .cls-2 {
       fill: #fff; }
     .containerMainSVGLK .car.red2 .cls-3 {
       fill: #78cddb; }
+    @media only screen and (max-width: 800px) {
+      .containerMainSVGLK .car.red2 {
+        bottom: 128px; } }
 @-webkit-keyframes carmove {
   0% {
     left: 160px;
@@ -753,8 +771,6 @@
     fill: #fff;
     fill-rule: nonzero;
     stroke: #d1ebf1;
-    -webkit-animation: pulse-ring 3s infinite;
-            animation: pulse-ring 3s infinite;
     -webkit-transition: fill 0.5s;
     transition: fill 0.5s; }
 @-webkit-keyframes pulse-ring {
@@ -817,29 +833,17 @@
     z-index: 999;
     top: 50px;
     left: 50px;
-    -webkit-animation: speechLrgShow 4s;
-            animation: speechLrgShow 4s;
     -webkit-transform-origin: top;
             transform-origin: top; }
     .containerSpeechLK .speech-lrg .trans1 {
-      -webkit-animation: speechLrgpplShow 3s;
-              animation: speechLrgpplShow 3s;
       fill: #71be49; }
     .containerSpeechLK .speech-lrg .trans2 {
-      -webkit-animation: speechLrgpplShow 3.2s;
-              animation: speechLrgpplShow 3.2s;
       fill: #71be49; }
     .containerSpeechLK .speech-lrg .trans3 {
-      -webkit-animation: speechLrgpplShow 3.4s;
-              animation: speechLrgpplShow 3.4s;
       fill: #71be49; }
     .containerSpeechLK .speech-lrg .trans4 {
-      -webkit-animation: speechLrgpplShow 3.6s;
-              animation: speechLrgpplShow 3.6s;
       fill: #71be49; }
     .containerSpeechLK .speech-lrg .trans5 {
-      -webkit-animation: speechLrgpplShow 3.8s;
-              animation: speechLrgpplShow 3.8s;
       fill: #71be49; }
     .containerSpeechLK .speech-lrg .cls-2 {
       fill: none;
@@ -884,19 +888,11 @@
     position: absolute;
     right: 100px;
     top: 100px;
-    -webkit-animation: speechLrgShow 4s;
-            animation: speechLrgShow 4s;
     -webkit-transform-origin: top;
-            transform-origin: top;
-    -webkit-animation: speechLrgShow 3s;
-            animation: speechLrgShow 3s; }
+            transform-origin: top; }
     .containerSpeechLK .speech-small .trans1 {
-      -webkit-animation: speechLrgpplShow 2.5s;
-              animation: speechLrgpplShow 2.5s;
       fill: #71be49; }
     .containerSpeechLK .speech-small .trans2 {
-      -webkit-animation: speechLrgpplShow 2.7s;
-              animation: speechLrgpplShow 2.7s;
       fill: #71be49; }
     .containerSpeechLK .speech-small .cls-2 {
       fill: none;
@@ -938,8 +934,6 @@
   .containerSpeechLK .large-cloud {
     width: 30%;
     position: absolute;
-    -webkit-animation: cloud2  4s infinite;
-            animation: cloud2  4s infinite;
     top: 20px; }
     .containerSpeechLK .large-cloud .cls-1 {
       fill: #88cede;
@@ -947,9 +941,7 @@
   .containerSpeechLK .small-cloud {
     width: 20%;
     top: 400px;
-    position: absolute;
-    -webkit-animation: cloud2  8s infinite;
-            animation: cloud2  8s infinite; }
+    position: absolute; }
     .containerSpeechLK .small-cloud .cls-1 {
       fill: #f2f2f2; }
 @keyframes cloud2 {
@@ -960,8 +952,6 @@
   100% {
     right: 0px; } }
   .containerSpeechLK .large-cloud-2 {
-    -webkit-animation: clouds  6s infinite;
-            animation: clouds  6s infinite;
     top: 300px; }
 @keyframes clouds {
   0% {
@@ -971,8 +961,6 @@
   100% {
     left: -60px; } }
   .containerSpeechLK .small-cloud-2 {
-    -webkit-animation: cloud3  4s infinite;
-            animation: cloud3  4s infinite;
     top: 50px; }
 @keyframes cloud3 {
   0% {
@@ -986,9 +974,12 @@
   width: 350px;
   position: relative;
   margin: 100px; }
+  @media only screen and (max-width: 800px) {
+    .containerCarParkLK {
+      height: auto;
+      margin: 0;
+      margin-left: 20px; } }
   .containerCarParkLK .build1 {
-    -webkit-animation: builds-show-1 2s;
-            animation: builds-show-1 2s;
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
     position: absolute;
@@ -1060,8 +1051,6 @@
     .containerCarParkLK .build1 .cls-26 {
       fill: #ccc; }
   .containerCarParkLK .build2 {
-    -webkit-animation: builds-show-2 2s;
-            animation: builds-show-2 2s;
     z-index: 999;
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
@@ -1101,8 +1090,6 @@
     .containerCarParkLK .build2 .cls-13 {
       fill: #fff; }
   .containerCarParkLK .build3 {
-    -webkit-animation: builds-show-3 2s;
-            animation: builds-show-3 2s;
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
     position: absolute;
@@ -1141,8 +1128,6 @@
     .containerCarParkLK .build3 .cls-13 {
       fill: #fff; }
   .containerCarParkLK .build4 {
-    -webkit-animation: builds-show-4 2s;
-            animation: builds-show-4 2s;
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
     position: absolute;
@@ -1204,8 +1189,6 @@
     .containerCarParkLK .build4 .cls-21 {
       fill: #fcd72a; }
   .containerCarParkLK .lines {
-    -webkit-animation: builds-show-3 2s;
-            animation: builds-show-3 2s;
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
     position: absolute;
@@ -1217,10 +1200,11 @@
       stroke: #fff;
       stroke-miterlimit: 10;
       stroke-width: 4px; }
+    @media only screen and (max-width: 800px) {
+      .containerCarParkLK .lines {
+        bottom: 163px; } }
   .containerCarParkLK .grass {
     height: 100%;
-    -webkit-animation: grass-show 2s;
-            animation: grass-show 2s;
     -webkit-transform-origin: bottom;
             transform-origin: bottom; }
     .containerCarParkLK .grass .cls-1 {
@@ -1350,8 +1334,6 @@
     position: absolute;
     left: 29px;
     top: -20px;
-    -webkit-animation: car-park-elems 2s;
-            animation: car-park-elems 2s;
     -webkit-transform-origin: bottom;
             transform-origin: bottom; }
     .containerCarParkLK .car-park-elems .cls-1, .containerCarParkLK .car-park-elems .cls-10, .containerCarParkLK .car-park-elems .cls-12, .containerCarParkLK .car-park-elems .cls-16, .containerCarParkLK .car-park-elems .cls-17, .containerCarParkLK .car-park-elems .cls-2, .containerCarParkLK .car-park-elems .cls-20, .containerCarParkLK .car-park-elems .cls-22, .containerCarParkLK .car-park-elems .cls-24, .containerCarParkLK .car-park-elems .cls-26, .containerCarParkLK .car-park-elems .cls-8 {
@@ -1478,18 +1460,12 @@
     z-index: 9999; }
     .containerCarParkLK .cloud .cls-1 {
       fill: #f2f2f2;
-      opacity: 0.69;
-      -webkit-animation: opacity-cloud 2s;
-              animation: opacity-cloud 2s; }
+      opacity: 0.69; }
   .containerCarParkLK .cloud1 {
-    top: 76px;
-    -webkit-animation: cloud2  6s infinite;
-            animation: cloud2  6s infinite; }
+    top: 76px; }
   .containerCarParkLK .cloud2 {
     top: -30px;
-    width: 30%;
-    -webkit-animation: clouds  6s infinite;
-            animation: clouds  6s infinite; }
+    width: 30%; }
 @-webkit-keyframes opacity-cloud {
   0% {
     opacity: 0; }
@@ -1541,8 +1517,6 @@
     .containerCarParkLK .van .cls-12 {
       fill: #fff; }
   .containerCarParkLK .van1 {
-    -webkit-animation: van1 7s;
-            animation: van1 7s;
     left: 177px;
     top: 154px; }
 @-webkit-keyframes van1 {
@@ -1588,8 +1562,6 @@
   90% {
     top: 154px; } }
   .containerCarParkLK .van2 {
-    -webkit-animation: van2 6s;
-            animation: van2 6s;
     left: 110px;
     top: 200px; }
 @-webkit-keyframes van2 {
@@ -1624,9 +1596,7 @@
     right: 125px;
     top: 200px;
     -webkit-transform: rotateY(-180deg);
-            transform: rotateY(-180deg);
-    -webkit-animation: van3 2s;
-            animation: van3 2s; }
+            transform: rotateY(-180deg); }
 @-webkit-keyframes van3 {
   0% {
     opacity: 0; }
@@ -1645,9 +1615,7 @@
     right: 55px;
     top: 156px;
     -webkit-transform: rotateY(-180deg);
-            transform: rotateY(-180deg);
-    -webkit-animation: van4 9s;
-            animation: van4 9s; }
+            transform: rotateY(-180deg); }
 @-webkit-keyframes van4 {
   0% {
     right: -80px;
@@ -1721,9 +1689,7 @@
       height: 30%;
       position: absolute;
       top: 39%;
-      left: 18%;
-      -webkit-animation: spin 10s infinite;
-              animation: spin 10s infinite; }
+      left: 18%; }
       .infoPhoneLK .container-phone .circle .cls-1 {
         fill: none;
         stroke: #e6e6e6;
@@ -1751,9 +1717,7 @@
       width: 16%;
       top: 25%;
       -webkit-transform-origin: left;
-              transform-origin: left;
-      -webkit-animation: widthx 2s;
-              animation: widthx 2s; }
+              transform-origin: left; }
       .infoPhoneLK .container-phone .small-lines .cls-1 {
         fill: none;
         stroke: #fff;
@@ -1766,9 +1730,7 @@
       width: 45%;
       top: 76%;
       -webkit-transform-origin: left;
-              transform-origin: left;
-      -webkit-animation: widthx 5s;
-              animation: widthx 5s; }
+              transform-origin: left; }
       .infoPhoneLK .container-phone .long-lines .cls-1 {
         fill: none;
         stroke: #fff;
@@ -1834,9 +1796,7 @@
       width: 12%;
       height: 9%;
       top: 49%;
-      right: 44.5%;
-      -webkit-animation: pointerBuzz 4s infinite;
-              animation: pointerBuzz 4s infinite; }
+      right: 44.5%; }
       .infoPhoneLK .container-phone .pointer .cls-1 {
         fill: white; }
     .infoPhoneLK .container-phone .ticks {
@@ -1856,9 +1816,7 @@
         top: 39%;
         left: 16%;
         -webkit-transform-origin: top left;
-                transform-origin: top left;
-        -webkit-animation: tick1 1.5s;
-                animation: tick1 1.5s; }
+                transform-origin: top left; }
       .infoPhoneLK .container-phone .ticks .tick2 {
         height: 100%;
         width: 15%;
@@ -1866,9 +1824,7 @@
                 transform: rotate(45deg);
         position: absolute;
         left: 91%;
-        top: -8%;
-        -webkit-animation: tick2 3s;
-                animation: tick2 3s; }
+        top: -8%; }
 @-webkit-keyframes tick1 {
   0% {
     height: 0%; }
@@ -1905,6 +1861,9 @@
   width: 400px;
   position: relative;
   margin: 100px; }
+  @media only screen and (max-width: 800px) {
+    .contactSVGSLK {
+      margin: 0; } }
   .contactSVGSLK .mound1 {
     position: absolute;
     height: 56px;
@@ -2047,24 +2006,328 @@
       opacity: 0.69; }
   .contactSVGSLK .cloud1 {
     width: 220px;
-    top: 50px;
+    top: 50px; }
+  .contactSVGSLK .cloud2 {
+    width: 140px;
+    top: 200px; }
+
+@media only screen and (min-width: 800px) {
+  .ppsect-one-home.active .containerMainSVGLK .large-cloud {
+    -webkit-animation: cloud2  4s infinite;
+            animation: cloud2  4s infinite; }
+  .ppsect-one-home.active .containerMainSVGLK .small-cloud {
+    -webkit-animation: cloud2  8s infinite;
+            animation: cloud2  8s infinite; }
+  .ppsect-one-home.active .containerMainSVGLK .large-cloud-2 {
+    -webkit-animation: clouds  6s infinite;
+            animation: clouds  6s infinite; }
+  .ppsect-one-home.active .containerMainSVGLK .small-cloud-2 {
+    -webkit-animation: cloud3  4s infinite;
+            animation: cloud3  4s infinite; }
+  .ppsect-one-home.active .containerMainSVGLK .turbine {
+    -webkit-animation: turnturbine 3s infinite linear;
+            animation: turnturbine 3s infinite linear; }
+  .ppsect-one-home.active .containerMainSVGLK .turbine2 {
+    -webkit-animation: turnturbine 2.5s infinite linear;
+            animation: turnturbine 2.5s infinite linear; }
+  .ppsect-one-home.active .containerMainSVGLK .van {
+    -webkit-animation: vanmove 5s infinite;
+            animation: vanmove 5s infinite; }
+  .ppsect-one-home.active .containerMainSVGLK .car.blue {
+    -webkit-animation: carmove3 13s infinite;
+            animation: carmove3 13s infinite; }
+  .ppsect-one-home.active .containerMainSVGLK .car.red {
+    -webkit-animation: carmove 5s infinite;
+            animation: carmove 5s infinite; }
+  .ppsect-one-home.active .containerMainSVGLK .car.red2 {
+    -webkit-animation: carmove2 7s infinite;
+            animation: carmove2 7s infinite; }
+  .ppsect-one-home.active .containerMainSVGLK .sectors-svg .glow {
+    -webkit-animation: pulse-ring 3s infinite;
+            animation: pulse-ring 3s infinite; }
+
+  .pp-sect-two.active .containerSpeechLK .speech-lrg {
+    -webkit-animation: speechLrgShow 4s;
+            animation: speechLrgShow 4s; }
+    .pp-sect-two.active .containerSpeechLK .speech-lrg .trans1 {
+      -webkit-animation: speechLrgpplShow 3s;
+              animation: speechLrgpplShow 3s; }
+    .pp-sect-two.active .containerSpeechLK .speech-lrg .trans2 {
+      -webkit-animation: speechLrgpplShow 3.2s;
+              animation: speechLrgpplShow 3.2s; }
+    .pp-sect-two.active .containerSpeechLK .speech-lrg .trans3 {
+      -webkit-animation: speechLrgpplShow 3.4s;
+              animation: speechLrgpplShow 3.4s; }
+    .pp-sect-two.active .containerSpeechLK .speech-lrg .trans4 {
+      -webkit-animation: speechLrgpplShow 3.6s;
+              animation: speechLrgpplShow 3.6s; }
+    .pp-sect-two.active .containerSpeechLK .speech-lrg .trans5 {
+      -webkit-animation: speechLrgpplShow 3.8s;
+              animation: speechLrgpplShow 3.8s; }
+  .pp-sect-two.active .containerSpeechLK .speech-small {
+    -webkit-animation: speechLrgShow 4s;
+            animation: speechLrgShow 4s;
+    -webkit-animation: speechLrgShow 3s;
+            animation: speechLrgShow 3s; }
+    .pp-sect-two.active .containerSpeechLK .speech-small .trans1 {
+      -webkit-animation: speechLrgpplShow 2.5s;
+              animation: speechLrgpplShow 2.5s; }
+    .pp-sect-two.active .containerSpeechLK .speech-small .trans2 {
+      -webkit-animation: speechLrgpplShow 2.7s;
+              animation: speechLrgpplShow 2.7s; }
+  .pp-sect-two.active .containerSpeechLK .large-cloud {
+    -webkit-animation: cloud2  4s infinite;
+            animation: cloud2  4s infinite; }
+  .pp-sect-two.active .containerSpeechLK .small-cloud {
+    -webkit-animation: cloud2  8s infinite;
+            animation: cloud2  8s infinite; }
+  .pp-sect-two.active .containerSpeechLK .large-cloud-2 {
+    -webkit-animation: clouds  6s infinite;
+            animation: clouds  6s infinite; }
+  .pp-sect-two.active .containerSpeechLK .small-cloud-2 {
+    -webkit-animation: cloud3  4s infinite;
+            animation: cloud3  4s infinite; }
+
+  .pp-sect-three.active .containerCarParkLK .build1 {
+    -webkit-animation: builds-show-1 2s;
+            animation: builds-show-1 2s; }
+  .pp-sect-three.active .containerCarParkLK .build2 {
+    -webkit-animation: builds-show-2 2s;
+            animation: builds-show-2 2s; }
+  .pp-sect-three.active .containerCarParkLK .build3 {
+    -webkit-animation: builds-show-3 2s;
+            animation: builds-show-3 2s; }
+  .pp-sect-three.active .containerCarParkLK .build4 {
+    -webkit-animation: builds-show-4 2s;
+            animation: builds-show-4 2s; }
+  .pp-sect-three.active .containerCarParkLK .lines {
+    -webkit-animation: builds-show-3 2s;
+            animation: builds-show-3 2s; }
+  .pp-sect-three.active .containerCarParkLK .grass {
+    -webkit-animation: grass-show 2s;
+            animation: grass-show 2s; }
+  .pp-sect-three.active .containerCarParkLK .car-park-elems {
+    -webkit-animation: car-park-elems 2s;
+            animation: car-park-elems 2s; }
+  .pp-sect-three.active .containerCarParkLK .cloud .cls-1 {
+    -webkit-animation: opacity-cloud 2s;
+            animation: opacity-cloud 2s; }
+  .pp-sect-three.active .containerCarParkLK .cloud1 {
+    -webkit-animation: cloud2  6s infinite;
+            animation: cloud2  6s infinite; }
+  .pp-sect-three.active .containerCarParkLK .cloud2 {
+    -webkit-animation: clouds  6s infinite;
+            animation: clouds  6s infinite; }
+  .pp-sect-three.active .containerCarParkLK .van1 {
+    -webkit-animation: van1 7s;
+            animation: van1 7s; }
+  .pp-sect-three.active .containerCarParkLK .van2 {
+    -webkit-animation: van2 6s;
+            animation: van2 6s; }
+  .pp-sect-three.active .containerCarParkLK .van3 {
+    -webkit-animation: van3 2s;
+            animation: van3 2s; }
+  .pp-sect-three.active .containerCarParkLK .van4 {
+    -webkit-animation: van4 9s;
+            animation: van4 9s; }
+
+  .pp-sect-four.active .infoPhoneLK .container-phone .circle {
+    -webkit-animation: spin 10s infinite;
+            animation: spin 10s infinite; }
+  .pp-sect-four.active .infoPhoneLK .container-phone .small-lines {
+    -webkit-animation: widthx 2s;
+            animation: widthx 2s; }
+  .pp-sect-four.active .infoPhoneLK .container-phone .long-lines {
+    -webkit-animation: widthx 5s;
+            animation: widthx 5s; }
+  .pp-sect-four.active .infoPhoneLK .container-phone .pointer {
+    -webkit-animation: pointerBuzz 4s infinite;
+            animation: pointerBuzz 4s infinite; }
+  .pp-sect-four.active .infoPhoneLK .container-phone .ticks .tick1 {
+    -webkit-animation: tick1 1.5s;
+            animation: tick1 1.5s; }
+  .pp-sect-four.active .infoPhoneLK .container-phone .ticks .tick2 {
+    -webkit-animation: tick2 3s;
+            animation: tick2 3s; }
+
+  .pp-sect-six.active .contactSVGSLK .cloud1 {
+    -webkit-animation: clouds  6s infinite;
+            animation: clouds  6s infinite; }
+  .pp-sect-six.active .contactSVGSLK .cloud2 {
+    -webkit-animation: cloud2  6s infinite;
+            animation: cloud2  6s infinite; }
+  .pp-sect-six.active .contactSVGSLK .phone-box {
+    -webkit-animation: phone-height 6s;
+            animation: phone-height 6s; }
+  .pp-sect-six.active .contactSVGSLK .flower2 {
+    -webkit-animation: sunturn 2s infinite;
+            animation: sunturn 2s infinite; }
+  .pp-sect-six.active .contactSVGSLK .flower1 {
+    -webkit-animation: sunturn 2s infinite;
+            animation: sunturn 2s infinite; } }
+@media only screen and (max-width: 800px) {
+  .containerMainSVGLK .large-cloud {
+    -webkit-animation: cloud2  4s infinite;
+            animation: cloud2  4s infinite; }
+  .containerMainSVGLK .small-cloud {
+    -webkit-animation: cloud2  8s infinite;
+            animation: cloud2  8s infinite; }
+  .containerMainSVGLK .large-cloud-2 {
+    -webkit-animation: clouds  6s infinite;
+            animation: clouds  6s infinite; }
+  .containerMainSVGLK .small-cloud-2 {
+    -webkit-animation: cloud3  4s infinite;
+            animation: cloud3  4s infinite; }
+  .containerMainSVGLK .turbine {
+    -webkit-animation: turnturbine 3s infinite;
+            animation: turnturbine 3s infinite; }
+  .containerMainSVGLK .turbine2 {
+    -webkit-animation: turnturbine 2.5s infinite;
+            animation: turnturbine 2.5s infinite; }
+  .containerMainSVGLK .van {
+    -webkit-animation: vanmove 5s infinite;
+            animation: vanmove 5s infinite; }
+  .containerMainSVGLK .car.blue {
+    -webkit-animation: carmove3 13s infinite;
+            animation: carmove3 13s infinite; }
+  .containerMainSVGLK .car.red {
+    -webkit-animation: carmove 5s infinite;
+            animation: carmove 5s infinite; }
+  .containerMainSVGLK .car.red2 {
+    -webkit-animation: carmove2 7s infinite;
+            animation: carmove2 7s infinite; }
+  .containerMainSVGLK .sectors-svg .glow {
+    -webkit-animation: pulse-ring 3s infinite;
+            animation: pulse-ring 3s infinite; }
+
+  .containerSpeechLK .speech-lrg {
+    -webkit-animation: speechLrgShow 4s;
+            animation: speechLrgShow 4s; }
+    .containerSpeechLK .speech-lrg .trans1 {
+      -webkit-animation: speechLrgpplShow 3s;
+              animation: speechLrgpplShow 3s; }
+    .containerSpeechLK .speech-lrg .trans2 {
+      -webkit-animation: speechLrgpplShow 3.2s;
+              animation: speechLrgpplShow 3.2s; }
+    .containerSpeechLK .speech-lrg .trans3 {
+      -webkit-animation: speechLrgpplShow 3.4s;
+              animation: speechLrgpplShow 3.4s; }
+    .containerSpeechLK .speech-lrg .trans4 {
+      -webkit-animation: speechLrgpplShow 3.6s;
+              animation: speechLrgpplShow 3.6s; }
+    .containerSpeechLK .speech-lrg .trans5 {
+      -webkit-animation: speechLrgpplShow 3.8s;
+              animation: speechLrgpplShow 3.8s; }
+  .containerSpeechLK .speech-small {
+    -webkit-animation: speechLrgShow 4s;
+            animation: speechLrgShow 4s;
+    -webkit-animation: speechLrgShow 3s;
+            animation: speechLrgShow 3s; }
+    .containerSpeechLK .speech-small .trans1 {
+      -webkit-animation: speechLrgpplShow 2.5s;
+              animation: speechLrgpplShow 2.5s; }
+    .containerSpeechLK .speech-small .trans2 {
+      -webkit-animation: speechLrgpplShow 2.7s;
+              animation: speechLrgpplShow 2.7s; }
+  .containerSpeechLK .large-cloud {
+    -webkit-animation: cloud2  4s infinite;
+            animation: cloud2  4s infinite; }
+  .containerSpeechLK .small-cloud {
+    -webkit-animation: cloud2  8s infinite;
+            animation: cloud2  8s infinite; }
+  .containerSpeechLK .large-cloud-2 {
+    -webkit-animation: clouds  6s infinite;
+            animation: clouds  6s infinite; }
+  .containerSpeechLK .small-cloud-2 {
+    -webkit-animation: cloud3  4s infinite;
+            animation: cloud3  4s infinite; }
+
+  .containerCarParkLK .build1 {
+    -webkit-animation: builds-show-1 2s;
+            animation: builds-show-1 2s; }
+  .containerCarParkLK .build2 {
+    -webkit-animation: builds-show-2 2s;
+            animation: builds-show-2 2s; }
+  .containerCarParkLK .build3 {
+    -webkit-animation: builds-show-3 2s;
+            animation: builds-show-3 2s; }
+  .containerCarParkLK .build4 {
+    -webkit-animation: builds-show-4 2s;
+            animation: builds-show-4 2s; }
+  .containerCarParkLK .lines {
+    -webkit-animation: builds-show-3 2s;
+            animation: builds-show-3 2s; }
+  .containerCarParkLK .grass {
+    -webkit-animation: grass-show 2s;
+            animation: grass-show 2s; }
+  .containerCarParkLK .car-park-elems {
+    -webkit-animation: car-park-elems 2s;
+            animation: car-park-elems 2s; }
+  .containerCarParkLK .cloud .cls-1 {
+    -webkit-animation: opacity-cloud 2s;
+            animation: opacity-cloud 2s; }
+  .containerCarParkLK .cloud1 {
+    -webkit-animation: cloud2  6s infinite;
+            animation: cloud2  6s infinite; }
+  .containerCarParkLK .cloud2 {
+    -webkit-animation: clouds  6s infinite;
+            animation: clouds  6s infinite; }
+  .containerCarParkLK .van1 {
+    -webkit-animation: van1 7s;
+            animation: van1 7s; }
+  .containerCarParkLK .van2 {
+    -webkit-animation: van2 6s;
+            animation: van2 6s; }
+  .containerCarParkLK .van3 {
+    -webkit-animation: van3 2s;
+            animation: van3 2s; }
+  .containerCarParkLK .van4 {
+    -webkit-animation: van4 9s;
+            animation: van4 9s; }
+
+  .infoPhoneLK .container-phone .circle {
+    -webkit-animation: spin 10s infinite;
+            animation: spin 10s infinite; }
+  .infoPhoneLK .container-phone .small-lines {
+    -webkit-animation: widthx 2s;
+            animation: widthx 2s; }
+  .infoPhoneLK .container-phone .long-lines {
+    -webkit-animation: widthx 5s;
+            animation: widthx 5s; }
+  .infoPhoneLK .container-phone .pointer {
+    -webkit-animation: pointerBuzz 4s infinite;
+            animation: pointerBuzz 4s infinite; }
+  .infoPhoneLK .container-phone .ticks .tick1 {
+    -webkit-animation: tick1 1.5s;
+            animation: tick1 1.5s; }
+  .infoPhoneLK .container-phone .ticks .tick2 {
+    -webkit-animation: tick2 3s;
+            animation: tick2 3s; }
+
+  .contactSVGSLK .cloud1 {
     -webkit-animation: clouds  6s infinite;
             animation: clouds  6s infinite; }
   .contactSVGSLK .cloud2 {
-    width: 140px;
-    top: 200px;
     -webkit-animation: cloud2  6s infinite;
             animation: cloud2  6s infinite; }
-
-.pp-sect-six.active .contactSVGSLK .phone-box {
-  -webkit-animation: phone-height 6s;
-          animation: phone-height 6s; }
-.pp-sect-six.active .contactSVGSLK .flower2 {
-  -webkit-animation: sunturn 2s infinite;
-          animation: sunturn 2s infinite; }
-.pp-sect-six.active .contactSVGSLK .flower1 {
-  -webkit-animation: sunturn 2s infinite;
-          animation: sunturn 2s infinite; }
+  .contactSVGSLK .phone-box {
+    -webkit-animation: phone-height 6s;
+            animation: phone-height 6s; }
+  .contactSVGSLK .flower2 {
+    -webkit-animation: sunturn 2s infinite;
+            animation: sunturn 2s infinite; }
+  .contactSVGSLK .flower1 {
+    -webkit-animation: sunturn 2s infinite;
+            animation: sunturn 2s infinite; } }
+.containerMapLK .map-container .clouds {
+  -webkit-animation: clouds  6s infinite;
+          animation: clouds  6s infinite; }
+.containerMapLK .map-container .cloud2 {
+  -webkit-animation: cloud2  8s infinite;
+          animation: cloud2  8s infinite; }
+.containerMapLK .map-container .cloud3 {
+  -webkit-animation: cloud3  3s infinite;
+          animation: cloud3  3s infinite; }
 
 .tree-containerLK .tree {
   height: 364px;
@@ -2163,8 +2426,8 @@
   .tree-containerLK .branch .circle {
     opacity: 0;
     top: -250%;
-    -webkit-transition: opacity 2s;
-    transition: opacity 2s;
+    -webkit-transition: opacity 0s;
+    transition: opacity 0s;
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -2173,9 +2436,6 @@
     position: relative;
     -webkit-transition-delay: 1.3s;
             transition-delay: 1.3s; }
-  .tree-containerLK .branch .circle-skew {
-    -webkit-transform: skew(20deg);
-            transform: skew(20deg); }
 .tree-containerLK .round-tree .blob {
   background-color: #FFD800;
   border-radius: 100%; }
@@ -2213,16 +2473,12 @@
           transform: scaleY(0); }
 .tree-containerLK .round-tree .circle {
   opacity: 0;
-  -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
+  -webkit-transition: opacity 0s;
+  transition: opacity 0s;
   -webkit-transition-delay: 0.8s;
           transition-delay: 0.8s;
-  -webkit-transform: translateY(-210%);
-          transform: translateY(-210%);
-  border: 7px solid #E7D7AA; }
-.tree-containerLK .round-tree .circle-skew {
-  -webkit-transform: skew(40deg);
-          transform: skew(40deg); }
+  border: 7px solid #E7D7AA;
+  display: none; }
 
 .containerSpeechLK .tree-containerLK .round-tree {
   height: 230px;
@@ -2290,29 +2546,50 @@
   top: 131px;
   left: 86px; }
 
-.tree-containerLK .tree-animate .first-blob, .tree-containerLK .tree-animate .second-blob, .tree-containerLK .tree-animate .third-blob {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
-  opacity: 1; }
-.tree-containerLK .tree-animate .trunk {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
-  opacity: 1; }
-.tree-containerLK .tree-animate .circle {
-  opacity: 1;
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1); }
-.tree-containerLK .round-tree-animate .second-blob {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1); }
-.tree-containerLK .round-tree-animate .third-blob {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1); }
-.tree-containerLK .round-tree-animate .trunk {
-  opacity: 1;
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1); }
-.tree-containerLK .round-tree-animate .circle {
-  opacity: 1; }
-
+@media only screen and (min-width: 800px) {
+  .active .tree-containerLK .tree-animate .first-blob, .active .tree-containerLK .tree-animate .second-blob, .active .tree-containerLK .tree-animate .third-blob {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1; }
+  .active .tree-containerLK .tree-animate .trunk {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1; }
+  .active .tree-containerLK .tree-animate .circle {
+    opacity: 1; }
+  .active .tree-containerLK .round-tree-animate .second-blob {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+  .active .tree-containerLK .round-tree-animate .third-blob {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+  .active .tree-containerLK .round-tree-animate .trunk {
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+  .active .tree-containerLK .round-tree-animate .circle {
+    opacity: 1; } }
+@media only screen and (max-width: 800px) {
+  .tree-containerLK .tree-animate .first-blob, .tree-containerLK .tree-animate .second-blob, .tree-containerLK .tree-animate .third-blob {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1; }
+  .tree-containerLK .tree-animate .trunk {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1; }
+  .tree-containerLK .tree-animate .circle {
+    opacity: 1; }
+  .tree-containerLK .round-tree-animate .second-blob {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+  .tree-containerLK .round-tree-animate .third-blob {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+  .tree-containerLK .round-tree-animate .trunk {
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+  .tree-containerLK .round-tree-animate .circle {
+    opacity: 1; } }
 /*# sourceMappingURL=base.css.map */
