@@ -1,29 +1,30 @@
 .tree-containerLK {
 	.tree-animate {
 		.first-blob, .second-blob, .third-blob {
-			height:25%;
+			transform: scaleY(1);
 			opacity:1;
 		}
 		.trunk {
-			height:15%;
+			transform: scaleY(1);
 			opacity:1;
 		}
 		.circle {
 			opacity:1;
+			transform: scaleY(1);
 		}
 	}
 
 
 	.round-tree-animate {
 		.second-blob {
-			height:20%;
+			transform: scaleY(1);
 		}
 		.third-blob {
-			height:30%;
+			transform: scaleY(1);
 		}
-		.trunk {
-			height:25%;
+		.trunk {	
 			opacity: 1;
+			transform: scaleY(1);
 		}
 		.circle {
 			opacity:1;

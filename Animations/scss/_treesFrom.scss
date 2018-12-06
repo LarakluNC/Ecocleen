@@ -34,10 +34,12 @@
 		}
 	}
 	.first-blob {
-		height:0%;
+		height:25%;
 		width:70%;
-		transition: height 1.3s;
-		transition-delay: 1s;
+		transition: transform 0.7s;
+		transition-delay: 1.2s;
+		transform-origin: bottom;
+		transform: scaleY(0);
 
 		div:nth-child(1){
 			margin-left: -3%
@@ -48,46 +50,54 @@
 
 	}
 	.second-blob {
-		height:0%;
+		height:25%;
 		width:90%;
-		transition: height 1s;
-		transition-delay: 0.5s;
+		transition: transform 0.7s;
+		transition-delay: 0.7s;
+		transform-origin: bottom;
+		transform: scaleY(0);
 
 		div:nth-child(1){
 			margin-left: -10%
 		}
 	}
 	.third-blob {
-		height:0%;
+		height:25%;
 		width:100%;
-		transition: height 0.7s;
+		transition: transform 0.7s;
+		transform-origin: bottom;
+		transform: scaleY(0);
+		transition-delay: 0.3s;
 		
 	}
 	.trunk {
-		height:0%;
+		transform: scaleY(0);
+		height:15%;
 		opacity:0;
-		transition: all 0.3s;
+		transition: transform 0.5s;
 		width:6%;
 		background-color: #F2EFDC;
 		margin: auto 8%;
 		z-index:-1;
 		position: relative;
+		transform-origin: bottom;
 	}
 	.branch {
 		height:15%;
 		width:15%;
-		transition: height 2s;
+		transition: transform 2s;
+		transform-origin: bottom;
 
 		.circle {
 			opacity:0;
+			top:-250%;
 			transition: opacity 2s;
 			height:100%;
 			width:100%;
 			border-radius: 50%;
-			border: 7px solid #F2EFDC;
+			border: 3px solid #F2EFDC;
 			z-index:-1;
 			position: relative;
-			transform: translateY(-155%);
 			transition-delay: 1.3s;
 		}
 		.circle-skew {
@@ -103,25 +113,35 @@
 		}
 		.second-blob {
 			width:20%;
-			height:0%;
+			height:20%;
 			margin-bottom:-34%;
 			margin-left:-10%;
+			transform-origin: bottom;
+			transform: scaleY(0);
+			transition-delay: 0.5s;
 
 		}
 		.third-blob {
 			width:30%;
-			height:0%;
+			height:30%;
 			margin-bottom: -2%;
+			transform-origin: bottom;
+			transform: scaleY(0);
+			transition-delay: 0.7s;
 		}
 		.trunk {
-			height:0%;
+			height:25%;
 			width:3%;
 			opacity: 0;
 			background-color:#E7D7AA;
-			transition: all 1.3s;
+			transition: all 1s;
+			transform-origin: bottom;
+			transform: scaleY(0);
 		}
 		.circle {
 			opacity:0;	
+			transition: opacity 0.5s;
+			transition-delay: 0.8s;
 			transform: translateY(-210%);
 			border: 7px solid #E7D7AA;
 
