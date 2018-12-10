@@ -1,44 +1,44 @@
 
-@media only screen and (min-width: 800px) {
-	.ppsect-one-home.active {
-		.containerMainSVGLK {
-			.large-cloud {
-				animation: cloud2  4s infinite;
-			}
-			.small-cloud {
-				animation: cloud2  8s infinite;
-			}
-			.large-cloud-2 {
-				animation: clouds  6s infinite;
-			}	
-			.small-cloud-2 {
-				animation: cloud3  4s infinite;
-			}	
-			.turbine {
-				animation: turnturbine 3s infinite linear;
-			}
-			.turbine2 {
-				animation: turnturbine 2.5s infinite linear;
-			}
-			.van {
-				animation: vanmove 5s infinite;
-			}
-			.car.blue {
-				animation: carmove3 13s infinite;
-			}
-			.car.red {
-				animation: carmove 5s infinite;
-			}
-			.car.red2 {
-				animation: carmove2 7s infinite;
-			}
-			.sectors-svg {
-				.glow {	
-					animation: pulse-ring 3s infinite;
-				}
+.ppsect-one-home {
+	#containerMainSVGLK {
+		.large-cloud {
+			animation: cloud2  4s infinite;
+		}
+		.small-cloud {
+			animation: cloud2  8s infinite;
+		}
+		.large-cloud-2 {
+			animation: clouds  6s infinite;
+		}	
+		.small-cloud-2 {
+			animation: cloud3  4s infinite;
+		}	
+		.turbine {
+			animation: turnturbine 3s infinite linear;
+		}
+		.turbine2 {
+			animation: turnturbine 2.5s infinite linear;
+		}
+		.van {
+			animation: vanmove 5s infinite;
+		}
+		.car.blue {
+			animation: carmove3 13s infinite;
+		}
+		.car.red {
+			animation: carmove 5s infinite;
+		}
+		.car.red2 {
+			animation: carmove2 7s infinite;
+		}
+		.sectors-svg {
+			.glow {	
+				animation: pulse-ring 3s infinite;
 			}
 		}
 	}
+}
+@media only screen and (min-width: 800px) {	
 	.pp-sect-two.active {
 		.containerSpeechLK { 		
 			.speech-lrg {
@@ -181,44 +181,6 @@
 	}
 }
 @media only screen and (max-width: 800px) {
-	.containerMainSVGLK {
-		.large-cloud {
-			animation: cloud2  4s infinite;
-		}
-		.small-cloud {
-			animation: cloud2  8s infinite;
-		}
-		.large-cloud-2 {
-			animation: clouds  6s infinite;
-		}	
-		.small-cloud-2 {
-			animation: cloud3  4s infinite;
-		}	
-		.turbine {
-			animation: turnturbine 3s infinite;
-		}
-		.turbine2 {
-			animation: turnturbine 2.5s infinite;
-		}
-		.van {
-			animation: vanmove 5s infinite;
-		}
-		.car.blue {
-			animation: carmove3 13s infinite;
-		}
-		.car.red {
-			animation: carmove 5s infinite;
-		}
-		.car.red2 {
-			animation: carmove2 7s infinite;
-		}
-		.sectors-svg {
-			.glow {	
-				animation: pulse-ring 3s infinite;
-			}
-		}
-	}
-
 	.containerSpeechLK { 		
 		.speech-lrg {
 			.trans1 {
