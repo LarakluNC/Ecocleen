@@ -14,12 +14,14 @@
 			max-height:100%;
 			.st0{
 				fill:#71BE49;
-				stroke:#FFFFFF;
 				stroke-miterlimit:10;
+				transition: fill 0.5s;
+				stroke:#fff;
 			}
 			.st0:hover {
 				fill: #FCD72A;
 				position:relative;
+	
 			}
 			.no-hover:hover {
 				fill:#71BE49;
@@ -112,7 +114,6 @@
 		}
 		.cloud2 {
 			//animation: cloud2  8s infinite;
-
 			@keyframes cloud2 {
 				0% {
 					right:40px;
@@ -227,6 +228,10 @@
 	}
 	.south-west {
 		left:57px;
+		top:544px;
+	}
+	.twickenham-brighton {
+		left:230px;
 		top:544px;
 	}
 	@media only screen and (max-width: 800px) {
@@ -921,7 +926,6 @@
 	@keyframes van1 {
 		0% {
 			left:-57px;
-			top:160px;
 			opacity:0;
 		}
 		20% {
@@ -936,16 +940,6 @@
 		}
 		67% {
 			left:177px;
-			top:160px;
-		}
-		72% {
-			top:160px;
-		}
-		80% {
-			top:150px;
-		}
-		90% {
-			top:154px;
 		}
 
 	}
@@ -1298,6 +1292,7 @@
 		//animation: clouds  6s infinite;
 	}
 	.cloud2 {
+		z-index:-1;
 		width:140px;
 		top:200px;
 		//animation: cloud2  6s infinite;

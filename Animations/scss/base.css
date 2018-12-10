@@ -14,8 +14,10 @@
       max-height: 100%; }
       .containerMapLK .map-container .main-map-svg .st0 {
         fill: #71BE49;
-        stroke: #FFFFFF;
-        stroke-miterlimit: 10; }
+        stroke-miterlimit: 10;
+        -webkit-transition: fill 0.5s;
+        transition: fill 0.5s;
+        stroke: #fff; }
       .containerMapLK .map-container .main-map-svg .st0:hover {
         fill: #FCD72A;
         position: relative; }
@@ -231,6 +233,9 @@
     top: 431px; }
   .containerMapLK .south-west {
     left: 57px;
+    top: 544px; }
+  .containerMapLK .twickenham-brighton {
+    left: 230px;
     top: 544px; }
   @media only screen and (max-width: 800px) {
     .containerMapLK .pop {
@@ -1522,7 +1527,6 @@
 @-webkit-keyframes van1 {
   0% {
     left: -57px;
-    top: 160px;
     opacity: 0; }
   20% {
     left: -57px;
@@ -1532,18 +1536,10 @@
   55% {
     left: 220px; }
   67% {
-    left: 177px;
-    top: 160px; }
-  72% {
-    top: 160px; }
-  80% {
-    top: 150px; }
-  90% {
-    top: 154px; } }
+    left: 177px; } }
 @keyframes van1 {
   0% {
     left: -57px;
-    top: 160px;
     opacity: 0; }
   20% {
     left: -57px;
@@ -1553,14 +1549,7 @@
   55% {
     left: 220px; }
   67% {
-    left: 177px;
-    top: 160px; }
-  72% {
-    top: 160px; }
-  80% {
-    top: 150px; }
-  90% {
-    top: 154px; } }
+    left: 177px; } }
   .containerCarParkLK .van2 {
     left: 110px;
     top: 200px; }
@@ -2008,6 +1997,7 @@
     width: 220px;
     top: 50px; }
   .contactSVGSLK .cloud2 {
+    z-index: -1;
     width: 140px;
     top: 200px; }
 
@@ -2592,4 +2582,5 @@
             transform: scaleY(1); }
   .tree-containerLK .round-tree-animate .circle {
     opacity: 1; } }
+
 /*# sourceMappingURL=base.css.map */
